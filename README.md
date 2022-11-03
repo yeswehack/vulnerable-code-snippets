@@ -2,6 +2,15 @@
 
 [YesWeHack](https://www.yeswehack.com/) present code snippets containing several different vulnerabilities to practice your code analysis. The code snippets are beginner friendly but suitable for all levels!
 
+## Twitter posts
+- [#1](https://twitter.com/yeswehack/status/1570757831468679169)
+- [#2](https://twitter.com/yeswehack/status/1573303741310271490)
+- [#3](https://twitter.com/yeswehack/status/1575839882269818881)
+- [#4](https://twitter.com/yeswehack/status/1578370258230194177)
+- [#5](https://twitter.com/yeswehack/status/1580911299382296576)
+- [#6](https://twitter.com/yeswehack/status/1583445497687130114)
+- [#7](https://twitter.com/yeswehack/status/1585979707522134017)
+- [#8]() Comming soon!
 
 ## Vulnerabilities
 - [Broken access control](https://owasp.org/www-community/Broken_Access_Control) - CWE-284
