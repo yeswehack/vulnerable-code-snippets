@@ -2,6 +2,8 @@
 
 [YesWeHack](https://www.yeswehack.com/) present code snippets containing several different vulnerabilities to practice your code analysis. The code snippets are beginner friendly but suitable for all levels!
 
+~ New Twitter post at [@yeswehack](https://twitter.com/yeswehack) with a **new** vulnerable code snippet **every Friday**!
+
 ## Twitter posts
 - [#1](https://twitter.com/yeswehack/status/1570757831468679169)
 - [#2](https://twitter.com/yeswehack/status/1573303741310271490)
@@ -10,7 +12,6 @@
 - [#5](https://twitter.com/yeswehack/status/1580911299382296576)
 - [#6](https://twitter.com/yeswehack/status/1583445497687130114)
 - [#7](https://twitter.com/yeswehack/status/1585979707522134017)
-- [#8]() Comming soon!
 
 ## Vulnerabilities
 - [Broken access control](https://owasp.org/www-community/Broken_Access_Control) - CWE-284
@@ -32,3 +33,5 @@ __Also included__
 - SQL ([MySQL](https://www.mysql.com/))
 - HTML
 - CSS
+
+For questions, help or if you discovered an issue with the code. Contact us at Twitter: [@yeswehack](https://twitter.com/yeswehack)
