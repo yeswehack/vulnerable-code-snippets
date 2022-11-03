@@ -1,4 +1,4 @@
-# vulnerable-code-snippets
+# Vulnerable Code Snippets
 
 [YesWeHack](https://www.yeswehack.com/) present code snippets containing several different vulnerabilities to practice your code analysis. The code snippets are beginner friendly but suitable for all levels!
 
@@ -6,13 +6,13 @@
 
 ## Twitter posts
 A Collection of all vulnerable code snippets posted on our Twitter
-- [#1](https://twitter.com/yeswehack/status/1570757831468679169) - SQLi & XSS | Backslash filter collide
-- [#2](https://twitter.com/yeswehack/status/1573303741310271490) - Improper file access & XSS | Invalid char and regex verificaion
-- [#3](https://twitter.com/yeswehack/status/1575839882269818881) - Log Forging injection, Path traversal & Code injection | Poor filter and improper include() handling
-- [#4](https://twitter.com/yeswehack/status/1578370258230194177) - XSS | Invalid user input filter 
-- [#5](https://twitter.com/yeswehack/status/1580911299382296576) - SSRF & Broken authorization | Trusted user input and client IP from header.
-- [#6](https://twitter.com/yeswehack/status/1583445497687130114) - SSTI | Mixed input format
-- [#7](https://twitter.com/yeswehack/status/1585979707522134017) - SQLi | Use of invalid variable within statement
+- 📂[#1](https://twitter.com/yeswehack/status/1570757831468679169) - SQLi & XSS | Backslash filter collide
+- 📂[#2](https://twitter.com/yeswehack/status/1573303741310271490) - Improper file access & XSS | Invalid char and regex verificaion
+- 📂[#3](https://twitter.com/yeswehack/status/1575839882269818881) - Log Forging injection, Path traversal & Code injection | Poor filter and improper include() handling
+- 📂[#4](https://twitter.com/yeswehack/status/1578370258230194177) - XSS | Invalid user input filter 
+- 📂[#5](https://twitter.com/yeswehack/status/1580911299382296576) - SSRF & Broken authorization | Trusted user input and client IP from header.
+- 📂[#6](https://twitter.com/yeswehack/status/1583445497687130114) - SSTI | Mixed input format
+- 📂[#7](https://twitter.com/yeswehack/status/1585979707522134017) - SQLi | Use of invalid variable within statement
 
 ## Vulnerabilities
 - [Broken access control](https://owasp.org/www-community/Broken_Access_Control) - CWE-284
