@@ -1,4 +1,4 @@
-# [![YWH Logo](./ywhlogo.png)](https://blog.yeswehack.com/category/yeswerhackers/) Vulnerable Code Snippets
+# <img src="./ywhlogo.png" alt="YWH Logo" width="15%" height="15%"> Vulnerable Code Snippets
 
 ![Vulnerable snippet banner YesWeHack Github repo](./BANNERVSC_YWH.png)
 
