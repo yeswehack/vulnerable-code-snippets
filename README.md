@@ -1,6 +1,6 @@
-# <img src="./ywhlogo.png" alt="YWH Logo" width="15%" height="15%"> Vulnerable Code Snippets
+# <img src="./img/ywhlogo.png" alt="YWH Logo" width="40px" height="40px"> Vulnerable Code Snippets
 
-![Vulnerable snippet banner YesWeHack Github repo](./BANNERVSC_YWH.png)
+![Vulnerable snippet banner YesWeHack Github repo](./img/BANNERVSC_YWH.png)
 
 [YesWeHack](https://www.yeswehack.com/) present code snippets containing several different vulnerabilities to practice your code analysis. The code snippets are beginner friendly but suitable for all levels!
 
