@@ -1,3 +1,5 @@
+![Vulnerable snippet banner YesWeHack Github repo](./BANNERVSC_YWH.png)
+
 # Vulnerable Code Snippets
 
 [YesWeHack](https://www.yeswehack.com/) present code snippets containing several different vulnerabilities to practice your code analysis. The code snippets are beginner friendly but suitable for all levels!
