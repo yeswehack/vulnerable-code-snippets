@@ -28,8 +28,8 @@ A Collection of all vulnerable code snippets posted on our Twitter 📂
 - [SQL injection (SQLi)](https://owasp.org/www-community/attacks/SQL_Injection) (SQLi) - CWE-89
 - [Cross Site Scripting](https://owasp.org/www-community/attacks/xss/) (XSS) - CWE-79
 - [Open Redirect](https://cheatsheetseries.owasp.org/cheatsheets/Unvalidated_Redirects_and_Forwards_Cheat_Sheet.html) - CWE-601
-- [Server-side template injection](https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/07-Input_Validation_Testing/18-Testing_for_Server_Side_Template_Injection) - CWE-1336
-- [Server Side Request Forgery](https://owasp.org/www-community/attacks/Server_Side_Request_Forgery) - CWE-918
+- [Server-side template injection](https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/07-Input_Validation_Testing/18-Testing_for_Server_Side_Template_Injection) (SSTI) - CWE-1336
+- [Server Side Request Forgery](https://owasp.org/www-community/attacks/Server_Side_Request_Forgery) (SSRF)- CWE-918
 
 ## Programming Language 💻
 - [PHP](https://www.php.net/)
