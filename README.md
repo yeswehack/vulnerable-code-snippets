@@ -4,12 +4,12 @@
 
 [YesWeHack](https://www.yeswehack.com/) present code snippets containing several different vulnerabilities to practice your code analysis. The code snippets are beginner friendly but suitable for all levels!
 
-~ New Twitter post at [@yeswehack](https://twitter.com/yeswehack) with a **new** vulnerable code snippet **every Friday**! 🗒
+~ New **vulnerable code snippet** at Twitter [@yeswehack](https://twitter.com/yeswehack) **every Friday**! 🗒
 
 ---
 
 ⚠️ **Be aware**
-> Be sure to run this in a secure environment, as the code is vulnerable and is intended to be used for learning and as a resource for practicing code snippet analysis!
+> Be sure to run this in a secure environment, as the code is vulnerable and is intended to be used for learning code analysis!
 
 ## Twitter posts 🔖
 A Collection of all vulnerable code snippets posted on our Twitter 📂    
@@ -42,4 +42,4 @@ __Also included__
 - HTML
 - CSS
 
-For questions, help or if you discovered an issue with the code. Contact us at Twitter: [@yeswehack](https://twitter.com/yeswehack) 📬
+For questions, help or if you have discovered a problem with the code. Contact us on Twitter: [@yeswehack](https://twitter.com/yeswehack) 📬
