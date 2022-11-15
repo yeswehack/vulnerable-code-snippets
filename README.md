@@ -47,38 +47,13 @@ __Also included__
 
 ---
 
-## Installation
+## Installation 🏁
+This will create a new MySQL user and a database for the vulnerable code snippet to use.  
 
-### Database setup
-
-Replace and add your credentials in all steps as well as these files below (In the `db/` folder)  
-(`<DATABASE>`,`<HOST>`,`<USERNAME>`,`<PASSWORD>`)
-```
-db.php
-db.py
-db.js
-```
-
-Update:
+> ⚠️ **Replace `'<USERNAME>'` `'<PASSWORD>'` `'<DATABASE>'` to your *new* MySQL **user**, **password** and new vulnerable snippet **Database**
 ```bash
-sudo apt update
-```
-### Login to MySQL as root and create a new user
-> Grant user permission to the vulnerable code snippet database **only**:
-
-Create MySQL user for the vulnerable snippet:
-```sql
-CREATE USER '<USERNAME>'@'localhost' IDENTIFIED BY '<PASSWORD>';
-```
-```sql
-GRANT CREATE, ALTER, DROP, INSERT, UPDATE, DELETE, SELECT on <DATABASE>.* TO '<USERNAME>'@'localhost' WITH GRANT OPTION;
+sudo apt update;
+cd db/ && ./setupVsnippet.sh '<USERNAME>' '<PASSWORD>' '<DATABASE>';
 ```
 
----
-
-### Database insert data
-```bash
-sed -i 's/__db__/<DATABASE>/' db/setup.sql; mysql -u <USERNAME> -p -e 'source db/setup.sql'
-```
-  
 For questions, help or if you have discovered a problem with the code. Contact us on Twitter: [@yeswehack](https://twitter.com/yeswehack) 📬
