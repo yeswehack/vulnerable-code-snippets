@@ -45,4 +45,37 @@ __Also included__
 - HTML
 - CSS
 
+---
+
+## Installation
+
+### Database setup
+
+Replace and add your credentials in: (`<DATABASE>`,`<HOST>`,`<USERNAME>`,`<PASSWORD>`)
+```
+db.php
+db.py
+db.js
+```
+
+Update:
+```bash
+sudo apt update
+```
+### Login to MySQL as root and create a new user
+> Grant user permission to the vulnerable code snippet database **only**:
+
+Create MySQL user for the vulnerable snippet:
+```sql
+CREATE USER '<USERNAME>'@'localhost' IDENTIFIED BY '<PASSWORD>';
+GRANT CREATE, ALTER, DROP, INSERT, UPDATE, DELETE, SELECT on <DATABASE>.* TO '<USERNAME>'@'localhost' WITH GRANT OPTION;
+```
+
+---
+
+### Database insert data
+```bash
+sed -i 's/__db__/<DATABASE>/' setup.sql; mysql -u <USERNAME> -p -e 'source db/setup.sql'
+```
+
 For questions, help or if you have discovered a problem with the code. Contact us on Twitter: [@yeswehack](https://twitter.com/yeswehack) 📬
