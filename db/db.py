@@ -6,11 +6,11 @@ import mysql.connector
 
 # MySQL Credentials:
 db = mysql.connector.connect(
-  host="<HOST>",
-  user="<USERNAME>",
-  password="<PASSWORD>",
-  database="<DATABASE>"
+  host="localhost",
+  user="__USER__",
+  password="__PASS__",
+  database="__DB__"
 )
 
 # Create a connection:
-mysql_cursor = db.cursor() 
+mysql_cursor = db.cursor()
