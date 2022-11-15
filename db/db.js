@@ -1,14 +1,10 @@
 var mysql = require('mysql');
 
-/*
-* YesWeHack - Vulnerable code snippets
-*/
-
 con = mysql.createConnection({
-  database: "<DATABASE>",
-  host: "<HOST>",
-  user: "<USERNAME>",
-  password: "<PASSWORD>",
+  database: "__DB__",
+  host: "localhost",
+  user: "__USER__",
+  password: "__PASS__",
 }); */
 
 //con.connect();
