@@ -13,7 +13,7 @@
 
 ## Twitter posts 🔖
 A Collection of all vulnerable code snippets posted on our Twitter 📂    
-📜[#1](https://twitter.com/yeswehack/status/1570757831468679169){:target="_blank"} - SQLi & XSS | Backslash filter collide  
+📜[#1](https://twitter.com/yeswehack/status/1570757831468679169){:target="_blank" rel="noopener"} - SQLi & XSS | Backslash filter collide  
 📜[#2](https://twitter.com/yeswehack/status/1573303741310271490) - Improper file access & XSS | Invalid char and regex verificaion  
 📜[#3](https://twitter.com/yeswehack/status/1575839882269818881) - Log Forging injection, Path traversal & Code injection | Poor filter and improper include() handling  
 📜[#4](https://twitter.com/yeswehack/status/1578370258230194177) - XSS | Invalid user input filter   
