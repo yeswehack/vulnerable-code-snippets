@@ -3,6 +3,10 @@ from urllib import parse
 import html
 app = Flask(__name__)
 
+##
+# YesWeHack - Vulnerable code snippets
+##
+
 def MySQL_Get(table, data):
     return False, ""
 def searchResult():
