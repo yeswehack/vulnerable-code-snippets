@@ -7,8 +7,8 @@
 //Connect to database:
 $db = "__DB__";
 $host = "localhost";
-$username = "__USER__";//<-ALWAYS DELETE AFTER USAGE
-$password = "__PASS__";//<-ALWAYS DELETE AFTER USAGE
+$username = "__USER__";
+$password = "__PASS__";
 
 // Create connection
 $mysqlDB = new mysqli($host, $username, $password, $db);
