@@ -56,4 +56,5 @@ sudo apt update;
 cd db/ && ./setupVsnippet.sh '<USERNAME>' '<PASSWORD>' '<DATABASE>';
 ```
   
+  
 For questions, help or if you have discovered a problem with the code. Contact us on Twitter: [@yeswehack](https://twitter.com/yeswehack) 📬
