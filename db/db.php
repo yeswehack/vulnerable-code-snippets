@@ -5,10 +5,10 @@
 */
 
 //Connect to database:
-$db = "<DATABASE>";
-$host = "<HOST>";
-$username = "<USERNAME>";
-$password = "<PASSWORD>";
+$db = "__DB__";
+$host = "localhost";
+$username = "__USER__";//<-ALWAYS DELETE AFTER USAGE
+$password = "__PASS__";//<-ALWAYS DELETE AFTER USAGE
 
 // Create connection
 $mysqlDB = new mysqli($host, $username, $password, $db);
@@ -20,3 +20,4 @@ if ($mysqlDB->connect_error) {
 echo ":: Connected successfully\n";
 
 ?>
+
