@@ -2,6 +2,10 @@ from flask import Flask, request
 import base64, requests
 import re as regex
 
+##
+# YesWeHack - Vulnerable code snippets
+##
+
 app = Flask(__name__)
 
 def RequestImage(url):
