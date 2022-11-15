@@ -80,5 +80,5 @@ GRANT CREATE, ALTER, DROP, INSERT, UPDATE, DELETE, SELECT on <DATABASE>.* TO '<U
 ```bash
 sed -i 's/__db__/<DATABASE>/' db/setup.sql; mysql -u <USERNAME> -p -e 'source db/setup.sql'
 ```
-
+  
 For questions, help or if you have discovered a problem with the code. Contact us on Twitter: [@yeswehack](https://twitter.com/yeswehack) 📬
