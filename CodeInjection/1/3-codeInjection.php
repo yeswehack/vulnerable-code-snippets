@@ -1,5 +1,9 @@
 <?php
 
+/*
+* YesWeHack - Vulnerable code snippets
+*/
+
 function IncludeFilter($str) {
     /**Secure the input from path traversal:
     */
