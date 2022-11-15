@@ -2,6 +2,10 @@
 <html>
 <body>
 
+<!--
+  YesWeHack - Vulnerable code snippets
+-->
+  
 <center>
 <form method="get">
   <label for="email">Subscribe to our newsletter</label><br>
