@@ -22,7 +22,7 @@ A Collection of all vulnerable code snippets posted on our Twitter 📂
 📜[#7](https://twitter.com/yeswehack/status/1585979707522134017) - SQLi | Use of invalid variable within statement  
 📜[#8](https://twitter.com/yeswehack/status/1588531516665171969) - CSRF | No CSRF token included  
 📜[#9](https://twitter.com/yeswehack/status/1591068243439009798) - Open Redirect | Invalid regex handler  
-
+📜[#10](x) - In-process... | x  
 
 ## Vulnerabilities 💀
 - [Broken access control](https://owasp.org/www-community/Broken_Access_Control) - CWE-284
