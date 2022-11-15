@@ -51,7 +51,8 @@ __Also included__
 
 ### Database setup
 
-Replace and add your credentials in: (`<DATABASE>`,`<HOST>`,`<USERNAME>`,`<PASSWORD>`)
+Replace and add your credentials in all steps as well as these files below (In the `db/` folder)  
+(`<DATABASE>`,`<HOST>`,`<USERNAME>`,`<PASSWORD>`)
 ```
 db.php
 db.py
@@ -68,6 +69,8 @@ sudo apt update
 Create MySQL user for the vulnerable snippet:
 ```sql
 CREATE USER '<USERNAME>'@'localhost' IDENTIFIED BY '<PASSWORD>';
+```
+```sql
 GRANT CREATE, ALTER, DROP, INSERT, UPDATE, DELETE, SELECT on <DATABASE>.* TO '<USERNAME>'@'localhost' WITH GRANT OPTION;
 ```
 
@@ -75,7 +78,7 @@ GRANT CREATE, ALTER, DROP, INSERT, UPDATE, DELETE, SELECT on <DATABASE>.* TO '<U
 
 ### Database insert data
 ```bash
-sed -i 's/__db__/<DATABASE>/' setup.sql; mysql -u <USERNAME> -p -e 'source db/setup.sql'
+sed -i 's/__db__/<DATABASE>/' db/setup.sql; mysql -u <USERNAME> -p -e 'source db/setup.sql'
 ```
 
 For questions, help or if you have discovered a problem with the code. Contact us on Twitter: [@yeswehack](https://twitter.com/yeswehack) 📬
