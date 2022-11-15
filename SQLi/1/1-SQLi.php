@@ -16,7 +16,7 @@ foreach ( $lst_blacklist as $char ) {
 }
 
 $sql = "SELECT * FROM `products` WHERE category = '$query'";
-$result = $conn->query($sql);
+$result = $mysqlDB->query($sql);
 
 if ($result->num_rows > 0) {
     // output data of each row
@@ -30,5 +30,5 @@ if ($result->num_rows > 0) {
         echo "0 results for $query";
 }
 
-$conn->close();
+$mysqlDB->close();
 ?> 
