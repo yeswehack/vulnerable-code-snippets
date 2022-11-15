@@ -1,6 +1,10 @@
 from flask import Flask, request
 app = Flask(__name__)
 
+##
+# YesWeHack - Vulnerable code snippets
+##
+
 def renderHTML(str):
     HTML = ('''
     <html>
