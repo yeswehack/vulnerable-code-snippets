@@ -1,5 +1,9 @@
 <?php
 
+/*
+* YesWeHack - Vulnerable code snippets
+*/
+
 if ( isset($_GET['logout']) ) {
     echo "<b>Logging out...</b>";
     
