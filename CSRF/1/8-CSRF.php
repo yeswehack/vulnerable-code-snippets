@@ -1,5 +1,9 @@
 <?php
 
+/*
+* YesWeHack - Vulnerable code snippets
+*/
+
 //include("/user/sessions")
 session_start();
 $_SESSION["session"] = "123456";//<== Quick way to just demonstrait that a "session is in place".
