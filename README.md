@@ -54,6 +54,7 @@ This will create a new MySQL user and a database for the vulnerable code snippet
 ```bash
 sudo apt update;
 cd db/;
+chmod +x setupVsnippet.sh;
 ./setupVsnippet.sh # '<USERNAME>' '<PASSWORD>' '<DATABASE>';
 ```
   
