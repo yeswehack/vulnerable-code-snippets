@@ -50,7 +50,7 @@ __Also included__
 ## Installation 🏁
 This will create a new MySQL user and a database for the vulnerable code snippet to use.  
 
-> ⚠️ Replace `'<USERNAME>'` `'<PASSWORD>'` `'<DATABASE>'` to your *new* MySQL **user**, **password** and new vulnerable snippet **Database**. 
+> ⚠️ Replace `'<USERNAME>'` `'<PASSWORD>'` `'<DATABASE>'` and remove the `#`. This will be your *new* MySQL **user**, **password** and vulnerable snippet **Database**! 
 ```bash
 sudo apt update;
 cd db/;
