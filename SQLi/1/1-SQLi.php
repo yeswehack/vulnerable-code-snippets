@@ -1,5 +1,9 @@
 <?php
- //Note, this should be the path to the "db.php" file that is in the root of the repo + credentials added:
+/*
+* YesWeHack - Vulnerable code snippets
+*/
+
+//Note, this should be the path to the "db.php" file that is in the root of the repo + credentials added:
 include("../../db.php");
 
 $query = $_GET['q'];
