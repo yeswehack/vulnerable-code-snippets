@@ -1,3 +1,7 @@
+/*
+* YesWeHack - Vulnerable code snippets
+*/
+
 var mysql = require('mysql');
 
 con = mysql.createConnection({
