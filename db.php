@@ -3,8 +3,7 @@
   * YesWeHack - Vulnerable code snippets
   */
 
-  //Add your MYSql database credentials:
-  #Connect to database:
+  //Add your MySQL database credentials:
   $db = "<DATABASE NAME>";
   $host = "<HOST>";
   $username = "<USERNAME>";
