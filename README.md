@@ -60,9 +60,11 @@ git clone https://github.com/yeswehack/vulnerable-code-snippets.git
 
 ```bash
 sudo apt update;
+systemctl start mysql;
 cd db/;
 chmod +x setupVsnippet.sh;
 ./setupVsnippet.sh # '<USERNAME>' '<PASSWORD>' '<DATABASE>';
+systemctl restart mysql;
 ```
   
   
