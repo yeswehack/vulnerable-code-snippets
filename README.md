@@ -55,8 +55,9 @@ mkdir VsnippetYWH && cd VsnippetYWH;
 git clone https://github.com/yeswehack/vulnerable-code-snippets.git
 ```
 
-> ⚠️ Replace `'<USERNAME>'` `'<PASSWORD>'` `'<DATABASE>'` and remove the `#`. This will be your *new* MySQL vulnerable snippet **user**, **password** and **Database**!
-*Make sure your in the Vsnippet folder when running this commands.* 
+> ⚠️ Replace `'<USERNAME>'` `'<PASSWORD>'` `'<DATABASE>'` and remove the `#`. This will be your *new* MySQL vulnerable snippet **user**, **password** and **Database**!  
+*Make sure your in the Vsnippet folder when running this commands.*  
+
 ```bash
 sudo apt update;
 cd db/;
