@@ -5,10 +5,10 @@
 */
 
 //Connect to database:
-$db = "__DB__";
-$host = "localhost";
-$username = "__USER__";
-$password = "__PASS__";
+$db = '__DB__';
+$host = 'localhost';
+$username = '__USER__';
+$password = '__PASS__';
 
 // Create connection
 $mysqlDB = new mysqli($host, $username, $password, $db);
