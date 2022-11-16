@@ -50,6 +50,11 @@ __Also included__
 ## Installation 🏁
 This will create a new MySQL user and a database for the vulnerable code snippet to use.  
 
+```bash
+mkdir VsnippetYWH && cd VsnippetYWH;
+git clone https://github.com/yeswehack/vulnerable-code-snippets.git
+```
+
 > ⚠️ Replace `'<USERNAME>'` `'<PASSWORD>'` `'<DATABASE>'` and remove the `#`. This will be your *new* MySQL vulnerable snippet **user**, **password** and **Database**! 
 ```bash
 sudo apt update;
