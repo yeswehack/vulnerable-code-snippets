@@ -4,7 +4,7 @@
 */
 
 //Note, this should be the path to the "db.php" file that is in the root of the repo + credentials added:
-include("../../db.php");
+include("../../db/db.php");
 
 $query = $_GET['q'];
 $lst_blacklist = array("\"", "`", "'", "\\" );
