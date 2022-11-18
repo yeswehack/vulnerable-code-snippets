@@ -49,6 +49,7 @@ __Also included__
 
 ## Installation 🏁
 This will create a new MySQL user and a database for the vulnerable code snippet to use.  
+(*You should not move code snippets or any other file within repo*)
 
 ```bash
 mkdir VsnippetYWH && cd VsnippetYWH;
@@ -66,6 +67,11 @@ chmod +x setupVsnippet.sh;
 ./setupVsnippet.sh # '<USERNAME>' '<PASSWORD>' '<DATABASE>';
 sudo systemctl restart mysql;
 ```
-  
+
+### Update 
+Inside the vulnerable snippet *folder* use: (*Get newest snippets*)
+```bash
+git pull
+```
   
 For questions, help or if you have discovered a problem with the code. Contact us on Twitter: [@yeswehack](https://twitter.com/yeswehack) 📬
