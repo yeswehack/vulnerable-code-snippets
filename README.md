@@ -22,7 +22,7 @@ A Collection of all vulnerable code snippets posted on our Twitter 📂
 📜[#7](https://twitter.com/yeswehack/status/1585979707522134017) - SQLi | Use of invalid variable within statement  
 📜[#8](https://twitter.com/yeswehack/status/1588531516665171969) - CSRF | No CSRF token included  
 📜[#9](https://twitter.com/yeswehack/status/1591068243439009798) - Open Redirect | Invalid regex handler  
-📜[#10](https://twitter.com/yeswehack/status/1593604941897236485) - DOM XSS | Backend filter collide with client side JavaScript
+📜[#10](https://twitter.com/yeswehack/status/1593604941897236485) - DOM XSS | Backend filter collide with client side JavaScript  
 📜[#11](https://twitter.com/yeswehack/status/1596141663075926017) - *censored* | *censored*
 
 ## Vulnerabilities 💀
