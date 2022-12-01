@@ -23,7 +23,9 @@ A Collection of all vulnerable code snippets posted on our Twitter 📂
 📜[#8](https://twitter.com/yeswehack/status/1588531516665171969) - CSRF | No CSRF token included  
 📜[#9](https://twitter.com/yeswehack/status/1591068243439009798) - Open Redirect | Invalid regex handler  
 📜[#10](https://twitter.com/yeswehack/status/1593604941897236485) - DOM XSS | Backend filter collide with client side JavaScript  
-📜[#11](https://twitter.com/yeswehack/status/1596141663075926017) - *censored* | *censored*
+📜[#11](https://twitter.com/yeswehack/status/1596141663075926017) - CORS | Misconfigured Access-Control-Allow header  
+📜[#12](#) - *censored* | *censored*  
+
 
 ## Vulnerabilities 💀
 - [Broken access control](https://owasp.org/www-community/Broken_Access_Control) - CWE-284
@@ -34,6 +36,7 @@ A Collection of all vulnerable code snippets posted on our Twitter 📂
 - [Open Redirect](https://cheatsheetseries.owasp.org/cheatsheets/Unvalidated_Redirects_and_Forwards_Cheat_Sheet.html) - CWE-601
 - [Server-side template injection (SSTI)](https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/07-Input_Validation_Testing/18-Testing_for_Server_Side_Template_Injection) - CWE-1336
 - [Server Side Request Forgery (SSRF)](https://owasp.org/www-community/attacks/Server_Side_Request_Forgery) - CWE-918
+- [Cross Origin Resource Sharing (CORS)](https://owasp.org/www-community/attacks/CORS_OriginHeaderScrutiny) - CWE-942
 
 ## Programming Language 💻
 - [PHP](https://www.php.net/)
