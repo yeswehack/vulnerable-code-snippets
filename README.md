@@ -24,7 +24,9 @@ A Collection of all vulnerable code snippets posted on our Twitter 📂
 📜[#9](https://twitter.com/yeswehack/status/1591068243439009798) - Open Redirect | Invalid regex handler  
 📜[#10](https://twitter.com/yeswehack/status/1593604941897236485) - DOM XSS | Backend filter collide with client side JavaScript  
 📜[#11](https://twitter.com/yeswehack/status/1596141663075926017) - CORS | Misconfigured Access-Control-Allow header  
-📜[#12](https://twitter.com/yeswehack/status/1598678380072902660) - CSRF/ClickJacking | GET request CSRF with insecure delete process / ClickJacking - X-Frame-Options set in HTML meta tag.
+📜[#12](https://twitter.com/yeswehack/status/1598678380072902660) - CSRF/ClickJacking | GET request CSRF with insecure delete process / ClickJacking - X-Frame-Options set in HTML meta tag.  
+📜[#13](#) - *censored* | *censored*
+
 
 
 ## Vulnerabilities 💀
