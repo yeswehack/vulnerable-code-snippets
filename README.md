@@ -1,3 +1,11 @@
+<!--
+A 'Thank you' from us / YesWeHack 
+MC0tPjAvJy8qPiovLTAtLyItMS8tMS0wLS8qPjxpbWcvc3JjLyUwYW9uZXJyb3I9LyoqLy1hbGVydCgxKTtvbmVycm9yLy8+
+
+Test it:
+https://dojo-yeswehack.com/Playground#eyJkZXNjcmlwdGlvbiI6IldvcmtzIGluIG1vc3Qgb3V0YnJlYWsgc2VuYXJpb3MgKyBzdGFuZGFyZCBET00gWFNTLCB5dyIsInNvbHV0aW9uIjpudWxsLCJoaW50cyI6W10sInF1ZXJ5Ijp7ImJhY2tlbmQiOiJYU1MiLCJ0ZW1wbGF0ZSI6IlxuPGRpdiB2YWx1ZT1cIiRwYXlsb2FkXCI+XG48ZGl2IHZhbHVlPSckcGF5bG9hZCc+XG5cbjxwIGlkPVwiZG9tXCI+Li4uPC9wPlxuPHNjcmlwdD5cbi8qJHBheWxvYWQqL1xueCA9IFwiJHBheWxvYWRcIjtcbnkgPSAnJHBheWxvYWQnO1xuXG4vL0RPTSBYU1MgUE9DOlxuZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ2RvbScpLmlubmVySFRNTD0gYCRwYXlsb2FkYFxuXG4vLyRwYXlsb2FkXG48L3NjcmlwdD4tLT5cbiIsImZpbHRlcnMiOnsiJHBheWxvYWQiOlt7ImZ1bmMiOiJVUkwgZGVjb2RlIiwiYXJncyI6W119XX19fQ==
+-->
+
 # <img src="./img/ywhlogo.png" alt="YWH Logo" width="40px" height="40px"> Vulnerable Code Snippets
 
 ![Vulnerable snippet banner YesWeHack Github repo](./img/VsnippetBanner.gif)
