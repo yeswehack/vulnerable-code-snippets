@@ -34,7 +34,7 @@ A Collection of all vulnerable code snippets posted on our Twitter 📂
 📜[#11](https://twitter.com/yeswehack/status/1596141663075926017) - CORS | Misconfigured Access-Control-Allow header  
 📜[#12](https://twitter.com/yeswehack/status/1598678380072902660) - CSRF/ClickJacking | GET request CSRF with insecure delete process / ClickJacking - X-Frame-Options set in HTML meta tag.  
 📜[#13](https://twitter.com/yeswehack/status/1601230194035105797) - Path Traversal/Unrestricted File Upload | Poor Path Traversal and file upload protection results in a code injection.  
-📜[#14](https://twitter.com/yeswehack/status/1603751408678969347) - *censored* | *NEW*
+📜[#14](https://twitter.com/yeswehack/status/1603751408678969347) - DOS | Incorrect operator handler in a loop
 
 
 
@@ -52,6 +52,7 @@ A Collection of all vulnerable code snippets posted on our Twitter 📂
 - [Clickjacking](https://owasp.org/www-community/attacks/Clickjacking) - CWE-1021  
 - [Unrestricted File Upload](https://owasp.org/www-community/vulnerabilities/Unrestricted_File_Upload) - CWE-434
 - [Path Traversal](https://owasp.org/www-community/attacks/Path_Traversal) - CWE-22  
+- [Denial Of Service](https://owasp.org/www-community/attacks/Denial_of_Service) - CWE-400  
 
 
 ## Programming Language 💻
