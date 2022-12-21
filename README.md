@@ -13,6 +13,7 @@ https://dojo-yeswehack.com/Playground#eyJkZXNjcmlwdGlvbiI6IldvcmtzIGluIG1vc3Qgb3
 [YesWeHack](https://www.yeswehack.com/) present code snippets containing several different vulnerabilities to practice your code analysis. The code snippets are beginner friendly but suitable for all levels!
 
 ~ New **vulnerable code snippet** at Twitter [@yeswehack](https://twitter.com/yeswehack) **every Friday**! 🗒
+> If you want to see something special or if you just have an idea about a vulnerable code snippet, feel free to create a "[New Issue](https://github.com/yeswehack/vulnerable-code-snippets/issues)" where you explain your idea, **no** idea is stupid.
 
 ---
 
@@ -95,4 +96,6 @@ Inside the vulnerable snippet *folder* use: (*Get newest snippets*)
 git pull
 ```
   
+  ~ **H4v3 y0u f0und th3 E4st3r 3gg y3t?** 🐇🪺  
+
 For questions, help or if you have discovered a problem with the code. Contact us on Twitter: [@yeswehack](https://twitter.com/yeswehack) 📬
