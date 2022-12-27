@@ -22,21 +22,23 @@ https://dojo-yeswehack.com/Playground#eyJkZXNjcmlwdGlvbiI6IldvcmtzIGluIG1vc3Qgb3
 
 ## Twitter posts 🔖
 A Collection of all vulnerable code snippets posted on our Twitter 📂    
-📜[#1](https://twitter.com/yeswehack/status/1570757831468679169) - SQLi & XSS | Backslash filter collide  
-📜[#2](https://twitter.com/yeswehack/status/1573303741310271490) - Improper file access & XSS | Invalid char and regex verificaion  
-📜[#3](https://twitter.com/yeswehack/status/1575839882269818881) - Log Forging injection, Path traversal & Code injection | Poor filter and improper include() handling  
-📜[#4](https://twitter.com/yeswehack/status/1578370258230194177) - XSS | Invalid user input filter   
-📜[#5](https://twitter.com/yeswehack/status/1580911299382296576) - SSRF & Broken authorization | Trusted user input and client IP from header.  
-📜[#6](https://twitter.com/yeswehack/status/1583445497687130114) - SSTI | Mixed input format  
-📜[#7](https://twitter.com/yeswehack/status/1585979707522134017) - SQLi | Use of invalid variable within statement  
-📜[#8](https://twitter.com/yeswehack/status/1588531516665171969) - CSRF | No CSRF token included  
-📜[#9](https://twitter.com/yeswehack/status/1591068243439009798) - Open Redirect | Invalid regex handler  
-📜[#10](https://twitter.com/yeswehack/status/1593604941897236485) - DOM XSS | Backend filter collide with client side JavaScript  
-📜[#11](https://twitter.com/yeswehack/status/1596141663075926017) - CORS | Misconfigured Access-Control-Allow header  
-📜[#12](https://twitter.com/yeswehack/status/1598678380072902660) - CSRF/ClickJacking | GET request CSRF with insecure delete process / ClickJacking - X-Frame-Options set in HTML meta tag.  
-📜[#13](https://twitter.com/yeswehack/status/1601230194035105797) - Path Traversal/Unrestricted File Upload | Poor Path Traversal and file upload protection results in a code injection.  
-📜[#14](https://twitter.com/yeswehack/status/1603751408678969347) - DOS | Incorrect operator handler in `for loop`  
-📜[#15](https://twitter.com/yeswehack/) - *Coming* | *...*
+📜[#1](https://twitter.com/yeswehack/status/1570757831468679169) - **SQLi & XSS** | Backslash filter collide  
+📜[#2](https://twitter.com/yeswehack/status/1573303741310271490) - **Improper file access & XSS** | Invalid char and regex verificaion  
+📜[#3](https://twitter.com/yeswehack/status/1575839882269818881) - **Log Forging injection, Path traversal & Code injection** | Poor filter and improper include() handling  
+📜[#4](https://twitter.com/yeswehack/status/1578370258230194177) - **XSS** | Invalid user input filter   
+📜[#5](https://twitter.com/yeswehack/status/1580911299382296576) - **SSRF & Broken authorization** | Trusted user input and client IP from header.  
+📜[#6](https://twitter.com/yeswehack/status/1583445497687130114) - **SSTI** | Mixed input format  
+📜[#7](https://twitter.com/yeswehack/status/1585979707522134017) - **SQLi** | Use of invalid variable within statement  
+📜[#8](https://twitter.com/yeswehack/status/1588531516665171969) - **CSRF** | No CSRF token included  
+📜[#9](https://twitter.com/yeswehack/status/1591068243439009798) - **Open Redirect** | Invalid regex handler  
+📜[#10](https://twitter.com/yeswehack/status/1593604941897236485) - **DOM XSS** | Backend filter collide with client side JavaScript  
+📜[#11](https://twitter.com/yeswehack/status/1596141663075926017) - **CORS** | Misconfigured Access-Control-Allow header  
+📜[#12](https://twitter.com/yeswehack/status/1598678380072902660) - **CSRF/ClickJacking** | GET request CSRF with insecure delete process / ClickJacking - X-Frame-Options set in HTML meta tag.  
+📜[#13](https://twitter.com/yeswehack/status/1601230194035105797) - **Path Traversal/Unrestricted File Upload** | Poor Path Traversal and file upload protection results in a code injection.  
+📜[#14](https://twitter.com/yeswehack/status/1603751408678969347) - **DOS** | Incorrect operator handler in 'for loop'  
+📜[#15](https://twitter.com/yeswehack/status/1606288516744347648) - **Weak Password Recovery Mechanism for Forgotten Password** | Weak hash for password recovery  
+📜[#16](https://twitter.com/yeswehack/) - **Coming** | ...  
+
 
 
 
@@ -54,6 +56,8 @@ A Collection of all vulnerable code snippets posted on our Twitter 📂
 - [Unrestricted File Upload](https://owasp.org/www-community/vulnerabilities/Unrestricted_File_Upload) - CWE-434
 - [Path Traversal](https://owasp.org/www-community/attacks/Path_Traversal) - CWE-22  
 - [Denial Of Service](https://owasp.org/www-community/attacks/Denial_of_Service) - CWE-400  
+- [Weak Password Recovery Mechanism for Forgotten Password](https://cwe.mitre.org/data/definitions/640.html) - CWE 640  
+
 
 
 ## Programming Language 💻
