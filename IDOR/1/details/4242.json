@@ -1,0 +1,12 @@
+{
+"user": {
+    "id": 4242,
+    "Created": "2022-12-19 11:42",
+    "role": "guest",
+    "email": "jerry@jerry.com",
+    "phone": 9876543210,
+    "session": "e00dcc7b5a67d4522589699e9acadc435e6c5753a0449dc19fbae67a000d7015",
+    "csrf": "30035607ee5bb378c71ab434a6d05410",
+    "bio": "I'm the mouse"
+}
+}
