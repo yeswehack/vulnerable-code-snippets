@@ -1,0 +1,12 @@
+{
+"user": {
+    "id": 1337,
+    "Created": "2022-12-19 13:37",
+    "role": "admin",
+    "email": "tom@tom.com",
+    "phone": 1234567890,
+    "session": "4ebdbacd03dc1a3116f62efdd9c58f06df46de3b5d3dce409257ded24f44bb04",
+    "csrf": "34b7da764b21d298ef307d04d8152dc5",
+    "bio": "I'm the cat"
+}
+}
