@@ -37,9 +37,8 @@ A Collection of all vulnerable code snippets posted on our Twitter 📂
 📜[#13](https://twitter.com/yeswehack/status/1601230194035105797) - **Path Traversal/Unrestricted File Upload** | Poor Path Traversal and file upload protection results in a code injection.  
 📜[#14](https://twitter.com/yeswehack/status/1603751408678969347) - **DOS** | Incorrect operator handler in 'for loop'  
 📜[#15](https://twitter.com/yeswehack/status/1606288516744347648) - **Weak Password Recovery Mechanism for Forgotten Password** | Weak hash for password recovery  
-📜[#16](https://twitter.com/yeswehack/) - **Coming** | ...  
-
-
+📜[#16](https://twitter.com/yeswehack/) - **IDOR** | insecure if statement leads to improper access control  
+📜[#17](https://twitter.com/yeswehack/) - **coming** | ...  
 
 
 ## Vulnerabilities 💀
@@ -57,7 +56,7 @@ A Collection of all vulnerable code snippets posted on our Twitter 📂
 - [Path Traversal](https://owasp.org/www-community/attacks/Path_Traversal) - CWE-22  
 - [Denial Of Service](https://owasp.org/www-community/attacks/Denial_of_Service) - CWE-400  
 - [Weak Password Recovery Mechanism for Forgotten Password](https://cwe.mitre.org/data/definitions/640.html) - CWE 640  
-
+- [Insecure Direct Object Reference (IDOR)](https://cwe.mitre.org/data/definitions/639.html) - CWE 639
 
 
 ## Programming Language 💻
