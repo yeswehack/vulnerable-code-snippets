@@ -37,8 +37,8 @@ A Collection of all vulnerable code snippets posted on our Twitter 📂
 📜[#13](https://twitter.com/yeswehack/status/1601230194035105797) - **Path Traversal/Unrestricted File Upload** | Poor Path Traversal and file upload protection results in a code injection.  
 📜[#14](https://twitter.com/yeswehack/status/1603751408678969347) - **DOS** | Incorrect operator handler in 'for loop'  
 📜[#15](https://twitter.com/yeswehack/status/1606288516744347648) - **Weak Password Recovery Mechanism for Forgotten Password** | Weak hash for password recovery  
-📜[#16](https://twitter.com/yeswehack/) - **IDOR** | insecure if statement leads to improper access control  
-📜[#17](https://twitter.com/yeswehack/) - **coming** | ...  
+📜[#16](https://twitter.com/yeswehack/status/1608822361419321350) - **IDOR** | insecure if statement leads to improper access control  
+📜[#17](https://twitter.com/yeswehack/status/1611361951644368898) - **coming** | ...  
 
 
 ## Vulnerabilities 💀
