@@ -38,7 +38,7 @@ A Collection of all vulnerable code snippets posted on our Twitter 📂
 📜[#14](https://twitter.com/yeswehack/status/1603751408678969347) - **DOS** | Incorrect operator handler in 'for loop'  
 📜[#15](https://twitter.com/yeswehack/status/1606288516744347648) - **Weak Password Recovery Mechanism for Forgotten Password** | Weak hash for password recovery  
 📜[#16](https://twitter.com/yeswehack/status/1608822361419321350) - **IDOR** | insecure if statement leads to improper access control  
-📜[#17](https://twitter.com/yeswehack/status/1611361951644368898) - **coming** | ...  
+📜[#17](https://twitter.com/yeswehack/status/1611361951644368898) - **new** | ...  
 
 
 ## Vulnerabilities 💀
