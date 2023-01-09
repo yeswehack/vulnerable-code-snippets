@@ -4,6 +4,9 @@ from datetime import date
 import base64 as b64
 import pickle
 
+#[NOTE]
+# Source file located inside: "/Deserialization/1/17-deserialization.py"
+
 ##
 # YesWeHack - Vulnerable Code Snippet
 ##
