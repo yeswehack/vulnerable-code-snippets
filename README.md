@@ -38,8 +38,8 @@ A Collection of all vulnerable code snippets posted on our Twitter 📂
 📜[#14](https://twitter.com/yeswehack/status/1603751408678969347) - **DOS** | Incorrect operator handler in 'for loop'  
 📜[#15](https://twitter.com/yeswehack/status/1606288516744347648) - **Weak Password Recovery Mechanism for Forgotten Password** | Weak hash for password recovery  
 📜[#16](https://twitter.com/yeswehack/status/1608822361419321350) - **IDOR** | insecure if statement leads to improper access control  
-📜[#17](https://twitter.com/yeswehack/status/1611361951644368898) - **new** | ...  
-
+📜[#17](https://twitter.com/yeswehack/status/1611361951644368898) - **Deserialization Of Untrusted Data** | Execute trusted user input inside pickle function 'loads()'  
+📜[#18](https://twitter.com/yeswehack/) - *coming...* | x
 
 ## Vulnerabilities 💀
 - [Broken access control](https://owasp.org/www-community/Broken_Access_Control) - CWE-284
@@ -55,8 +55,9 @@ A Collection of all vulnerable code snippets posted on our Twitter 📂
 - [Unrestricted File Upload](https://owasp.org/www-community/vulnerabilities/Unrestricted_File_Upload) - CWE-434
 - [Path Traversal](https://owasp.org/www-community/attacks/Path_Traversal) - CWE-22  
 - [Denial Of Service](https://owasp.org/www-community/attacks/Denial_of_Service) - CWE-400  
-- [Weak Password Recovery Mechanism for Forgotten Password](https://cwe.mitre.org/data/definitions/640.html) - CWE 640  
-- [Insecure Direct Object Reference (IDOR)](https://cwe.mitre.org/data/definitions/639.html) - CWE 639
+- [Weak Password Recovery Mechanism for Forgotten Password](https://cwe.mitre.org/data/definitions/640.html) - CWE-640  
+- [Insecure Direct Object Reference (IDOR)](https://cwe.mitre.org/data/definitions/639.html) - CWE-639  
+- [Deserialization Of Untrusted Data](https://owasp.org/www-community/vulnerabilities/Deserialization_of_untrusted_data) - CWE-502  
 
 
 ## Programming Language 💻
