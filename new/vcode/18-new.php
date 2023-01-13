@@ -1,7 +1,7 @@
 <?php
 include_once("../../design/design.php");
-Design(__FILE__, "#18 Local File Inclusion");
-//RUN: php -S 127.1:5000 18-LFI.php
+Design(__FILE__, "#18 Vsnippet");
+//RUN: php -S 127.1:5000 18-new.php
 
 /**
 * YesWeHack - Vulnerable Code Snippet
