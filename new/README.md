@@ -2,4 +2,4 @@
 
 **Code analysis( 🔎 ) → Understand( 🧠 ) → Detect the bug( 🐝 ) → pwn it( 🧑‍💻 )**
 
-> This folder contains the latest code snippet!
+> The latest V-Snippet code can be found in the `vcode` folder!
