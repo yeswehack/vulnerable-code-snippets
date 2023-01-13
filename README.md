@@ -39,7 +39,9 @@ A Collection of all vulnerable code snippets posted on our Twitter 📂
 📜[#15](https://twitter.com/yeswehack/status/1606288516744347648) - **Weak Password Recovery Mechanism for Forgotten Password** | Weak hash for password recovery  
 📜[#16](https://twitter.com/yeswehack/status/1608822361419321350) - **IDOR** | insecure if statement leads to improper access control  
 📜[#17](https://twitter.com/yeswehack/status/1611361951644368898) - **Deserialization Of Untrusted Data** | Execute trusted user input inside pickle function 'loads()'  
-📜[#18](https://twitter.com/yeswehack/) - *coming...* | x
+📜[#18](https://twitter.com/yeswehack/status/1613898789688942593) - **new!** | ...  
+
+
 
 ## Vulnerabilities 💀
 - [Broken access control](https://owasp.org/www-community/Broken_Access_Control) - CWE-284
