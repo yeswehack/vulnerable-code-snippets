@@ -39,7 +39,8 @@ A Collection of all vulnerable code snippets posted on our Twitter 📂
 📜[#15](https://twitter.com/yeswehack/status/1606288516744347648) - **Weak Password Recovery Mechanism for Forgotten Password** | Weak hash for password recovery  
 📜[#16](https://twitter.com/yeswehack/status/1608822361419321350) - **IDOR** | insecure if statement leads to improper access control  
 📜[#17](https://twitter.com/yeswehack/status/1611361951644368898) - **Deserialization Of Untrusted Data** | Execute trusted user input inside pickle function 'loads()'  
-📜[#18](https://twitter.com/yeswehack/status/1613898789688942593) - **new!** | ...  
+📜[#18](https://twitter.com/yeswehack/status/#) - **LFI** | Improper user validation of filename  
+📜[#19](https://twitter.com/yeswehack/) - *coming...* | x  
 
 
 
@@ -60,6 +61,7 @@ A Collection of all vulnerable code snippets posted on our Twitter 📂
 - [Weak Password Recovery Mechanism for Forgotten Password](https://cwe.mitre.org/data/definitions/640.html) - CWE-640  
 - [Insecure Direct Object Reference (IDOR)](https://cwe.mitre.org/data/definitions/639.html) - CWE-639  
 - [Deserialization Of Untrusted Data](https://owasp.org/www-community/vulnerabilities/Deserialization_of_untrusted_data) - CWE-502  
+- [Local File Inclusion](https://cwe.mitre.org/data/definitions/98.html) - CWE-98 
 
 
 ## Programming Language 💻
