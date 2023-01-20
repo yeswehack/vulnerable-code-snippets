@@ -40,7 +40,7 @@ A Collection of all vulnerable code snippets posted on our Twitter 📂
 📜[#16](https://twitter.com/yeswehack/status/1608822361419321350) - **IDOR** | insecure if statement leads to improper access control  
 📜[#17](https://twitter.com/yeswehack/status/1611361951644368898) - **Deserialization Of Untrusted Data** | Execute trusted user input inside pickle function 'loads()'  
 📜[#18](https://twitter.com/yeswehack/status/1614985966178996225) - **LFI** | Improper user validation of filename  
-📜[#19](https://twitter.com/yeswehack/) - *coming...* | x  
+📜[#19](https://twitter.com/yeswehack/status/1616435388507201536) - *New!* | ...  
 
 
 
