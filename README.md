@@ -41,6 +41,8 @@ A Collection of all vulnerable code snippets posted on our Twitter 📂
 📜[#17](https://twitter.com/yeswehack/status/1611361951644368898) - **Deserialization Of Untrusted Data** | Execute trusted user input inside pickle function 'loads()'  
 📜[#18](https://twitter.com/yeswehack/status/1614985966178996225) - **LFI** | Improper user validation of filename  
 📜[#19](https://twitter.com/yeswehack/status/1616435388507201536) - **Open Redirect** | Invalid handling of user-controlled input '*location.hash*'  
+📜[#20](https://twitter.com/yeswehack/) - *Coming soon!* | ...  
+
 
 
 ## Vulnerabilities 💀
