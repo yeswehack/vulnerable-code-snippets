@@ -1,0 +1,92 @@
+<html>
+<head>
+    <link rel="stylesheet" href="../../design/design.css">
+</head>
+<body>
+    <h1>20-Vsnippet</h1>
+
+<!--[Login Form]-->
+<form action="/" method="post">
+    <div>
+        <label><b>Username</b></label>
+        <input type="text" placeholder="Enter Username..." name="username" required>
+
+        <label><b>Password</b></label>
+        <input type="password" placeholder="Enter Password..." name="password" required>
+            
+        <button type="submit">Login</button>
+    </div>
+</form>
+
+<!--[Below code is only for design and can be ignored]-->
+<style>
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+body {  
+    padding: 2%;
+    font-family: 'VT323', monospace;
+    background-color: #000;
+    color: white;
+}
+input[type=text], input[type=password] {
+    font-family: 'VT323', monospace;
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: flex;
+    border: 1px solid #09d8c4;
+    box-sizing: border-box;
+}
+button {
+    font-family: 'VT323', monospace;
+    background-color:#09d8c4;
+    color: #000;
+    font-weight: bold;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 300px;
+}
+button:hover {
+    opacity: 0.8;
+}
+
+#Vcode {
+    z-index: -1;
+    opacity: 0.8;
+    position: absolute;
+    transform: translate(-100%, -100%);
+    top: 96%;
+    left: 98%;
+
+    word-wrap: break-word;
+    padding: 2%;
+    background-color: rgb(10, 10, 10);
+    border: 2px solid #09d8c4;
+    border-radius: 10px;
+    
+    font-size: 12px;
+}
+ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #222222f0;
+  }
+li {
+    display:inline;
+}
+li a {
+    color: rgb(240, 240, 240);
+    margin:auto;
+    padding: 2px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #555;
+    color: rgb(239, 239, 239);
+}
+</style>
+</body>
+</html>
