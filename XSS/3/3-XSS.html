@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <title>21-Vsnippet - PostMessage DOM XSS</title>
+<head>
+    <link rel="stylesheet" href="../../design/design.css">
+  </head>
+<body>
+<center>
+<label>Game4Hack3r$</label><br>
+<textarea type="text" id="username" placeholder="your username..."></textarea><br>
+<input id="btn" type="submit" value="START">
+
+<p id="out">Connected to game server address: </p>
+</center>
+<script>
+  //Get game server address:
+  console.log("Waiting for connection...")
+  window.addEventListener("message", (event)=>{
+    console.log("[OK] Connected!")
+    address = event.data
+    document.getElementById('out').innerHTML += `<u>${address}</u>`
+  });
+
+  //Code...
+</script>
+</body>
+</html>
