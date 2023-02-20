@@ -6,9 +6,10 @@ Test it:
 https://dojo-yeswehack.com/Playground#eyJkZXNjcmlwdGlvbiI6IldvcmtzIGluIG1vc3Qgb3V0YnJlYWsgc2VuYXJpb3MgKyBzdGFuZGFyZCBET00gWFNTLCB5dyIsInNvbHV0aW9uIjpudWxsLCJoaW50cyI6W10sInF1ZXJ5Ijp7ImJhY2tlbmQiOiJYU1MiLCJ0ZW1wbGF0ZSI6IlxuPGRpdiB2YWx1ZT1cIiRwYXlsb2FkXCI+XG48ZGl2IHZhbHVlPSckcGF5bG9hZCc+XG5cbjxwIGlkPVwiZG9tXCI+Li4uPC9wPlxuPHNjcmlwdD5cbi8qJHBheWxvYWQqL1xueCA9IFwiJHBheWxvYWRcIjtcbnkgPSAnJHBheWxvYWQnO1xuXG4vL0RPTSBYU1MgUE9DOlxuZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ2RvbScpLmlubmVySFRNTD0gYCRwYXlsb2FkYFxuXG4vLyRwYXlsb2FkXG48L3NjcmlwdD4tLT5cbiIsImZpbHRlcnMiOnsiJHBheWxvYWQiOlt7ImZ1bmMiOiJVUkwgZGVjb2RlIiwiYXJncyI6W119XX19fQ==
 -->
 
-# <img src="./img/ywhlogo.png" alt="YWH Logo" width="40px" height="40px"> Vulnerable Code Snippets
-
-![Vulnerable snippet banner YesWeHack Github repo](./img/VsnippetBanner.gif)
+<h1 align="center">
+ <img src="./img/ywhlogo.png" alt="YWH Logo" width="40px" height="40px"> Vulnerable Code Snippets
+ <img src="./img/VsnippetBanner.gif" alt="Vulnerable code snippet (Vsnippet) banner YesWeHack Github repo">
+</h1>
 
 [YesWeHack](https://www.yeswehack.com/) present code snippets containing several different vulnerabilities to practice your code analysis. The code snippets are beginner friendly but suitable for all levels!
 
@@ -43,8 +44,8 @@ A Collection of all vulnerable code snippets posted on our Twitter 📂
 📜[#19](https://twitter.com/yeswehack/status/1616435388507201536) - **Open Redirect** | Invalid handling of user-controlled input '*location.hash*'  
 📜[#20](https://twitter.com/yeswehack/status/1618972101943107584) - **SQL injection** | Invalid use of function *replace()*, The char is only replaced once.  
 📜[#21](https://twitter.com/yeswehack/status/1621508813177212930) - **PostMessage DOM XSS** | No origin validation, leading to PostMessage DOM XSS  
-📜[#22](https://twitter.com/yeswehack) - *Coming...* | x  
-
+📜[#22](https://twitter.com/yeswehack/status/1626582253215318016) - **XSS/OpenRedirect** | The filter protection does not filter all special characters that can be used to exploit the vulnerabilities  
+📜[#23](https://twitter.com/yeswehack/) - *Coming* | ...  
 
 
 
