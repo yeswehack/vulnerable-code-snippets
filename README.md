@@ -45,7 +45,7 @@ A Collection of all vulnerable code snippets posted on our Twitter 📂
 📜[#20](https://twitter.com/yeswehack/status/1618972101943107584) - **SQL injection** | Invalid use of function *replace()*, The char is only replaced once.  
 📜[#21](https://twitter.com/yeswehack/status/1621508813177212930) - **PostMessage DOM XSS** | No origin validation, leading to PostMessage DOM XSS  
 📜[#22](https://twitter.com/yeswehack/status/1626582253215318016) - **XSS/OpenRedirect** | The filter protection does not filter all special characters that can be used to exploit the vulnerabilities  
-📜[#23](https://twitter.com/yeswehack/) - *Coming* | ...  
+📜[#23](https://twitter.com/yeswehack/status/1632731995569549314) - **Buffer overflow** | Take user's STDIN input with the *gets()* function without checking the buffer size  
 
 
 
@@ -67,6 +67,8 @@ A Collection of all vulnerable code snippets posted on our Twitter 📂
 - [Insecure Direct Object Reference (IDOR)](https://cwe.mitre.org/data/definitions/639.html) - CWE-639  
 - [Deserialization Of Untrusted Data](https://owasp.org/www-community/vulnerabilities/Deserialization_of_untrusted_data) - CWE-502  
 - [Local File Inclusion](https://cwe.mitre.org/data/definitions/98.html) - CWE-98 
+- [Buffer Overflow](https://cwe.mitre.org/data/definitions/120.html) - CWE-120  
+
 
 
 ## Programming Language 💻
@@ -74,6 +76,7 @@ A Collection of all vulnerable code snippets posted on our Twitter 📂
 - [Python](https://www.python.org/)
 - [Golang](https://go.dev/)
 - [JavaScript](https://www.javascript.com/)
+- [C](https://en.wikipedia.org/wiki/C_(programming_language))
 
 __Also included__
 - SQL ([MySQL](https://www.mysql.com/))
