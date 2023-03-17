@@ -9,7 +9,7 @@ host=localhost
 database=__DB__')
 AS 'Credentials';
 
-DROP DATABASE IF NOT EXISTS `__DB__`;
+DROP DATABASE IF EXISTS `__DB__`;
 CREATE DATABASE `__DB__`;
 
 use `__DB__`;
