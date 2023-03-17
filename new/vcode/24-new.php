@@ -35,7 +35,7 @@ Design(__FILE__, " #24 - Vulnerable code snippet");
 //User input:
 $size = addslashes($_GET['size']);
 $column = addslashes($_GET['view']);
-if ( strlen($size) < 0 || strlen($filter) < 0 ) {
+if ( strlen($size) < 0 ) {
     echo "<b>Invalid size selected</b>";
     die();
 }
