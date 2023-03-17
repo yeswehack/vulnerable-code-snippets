@@ -88,16 +88,15 @@ __Also included__
 
 ## Installation 🏁
 This will create a new MySQL user and a database for the vulnerable code snippet to use.  
-(*You should not move code snippets or any other file within repo*)
+(*You should **not** move code snippets or any other file within repo*)
 
 ```bash
-mkdir VsnippetYWH && cd VsnippetYWH;
 git clone https://github.com/yeswehack/vulnerable-code-snippets.git
 ```
 
-> ⚠️ Replace `'<USERNAME>'` `'<PASSWORD>'` `'<DATABASE>'` and remove the `#`. This will be your *new* MySQL vulnerable snippet **user**, **password** and **Database**!  
-*Make sure your in the correct folder when running this commands.*  
-
+> ⚠️ Replace `'<USERNAME>'` `'<PASSWORD>'` `'<DATABASE>'` and remove the `#`. This will be your *new* MySQL vulnerable snippet **user**, **password** and **Database**  (*MySQL must be installed*).  
+  
+*Make sure your in the correct folder when running this commands.*
 ```bash
 sudo apt update;
 sudo systemctl start mysql;
@@ -108,7 +107,7 @@ sudo systemctl restart mysql;
 ```
 
 ### Update 
-Inside the vulnerable snippet *folder* use: (*Get newest snippets*)
+Inside the vulnerable snippet *folder* use: (*Get the newest code snippets*)
 ```bash
 git pull
 ```
