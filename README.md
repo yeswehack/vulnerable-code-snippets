@@ -46,7 +46,7 @@ A Collection of all vulnerable code snippets posted on our Twitter 📂
 📜[#21](https://twitter.com/yeswehack/status/1621508813177212930) - **PostMessage DOM XSS** | No origin validation, leading to PostMessage DOM XSS  
 📜[#22](https://twitter.com/yeswehack/status/1626582253215318016) - **XSS/OpenRedirect** | The filter protection does not filter all special characters that can be used to exploit the vulnerabilities  
 📜[#23](https://twitter.com/yeswehack/status/1631655669244784640) - **Buffer overflow** | Take user's STDIN input with the *gets()* function without checking the buffer size  
-📜[#24](https://twitter.com/yeswehack/status/1636725322447220739) - *Coming...*  
+📜[#24](https://twitter.com/yeswehack/status/1636725322447220739) - *New!*  
 
 
 
