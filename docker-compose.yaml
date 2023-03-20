@@ -1,0 +1,7 @@
+#Used by Kibana.
+version: "3"
+services:
+  DependencyCheck:
+    build: .
+    image: shaunmarshall/vulnerable-code-snippets:1.0
+    
