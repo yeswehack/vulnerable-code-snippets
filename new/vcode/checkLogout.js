@@ -1,1 +1,2 @@
-
+alert("You have successfully logged out")
+//Code...
