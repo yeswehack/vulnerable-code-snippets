@@ -40,7 +40,7 @@ A Collection of all vulnerable code snippets posted on our Twitter 📂
 📜[#15](https://twitter.com/yeswehack/status/1606288516744347648) - **Weak Password Recovery Mechanism for Forgotten Password** | Weak hash for password recovery  
 📜[#16](https://twitter.com/yeswehack/status/1608822361419321350) - **IDOR** | insecure if statement leads to improper access control  
 📜[#17](https://twitter.com/yeswehack/status/1611361951644368898) - **Deserialization Of Untrusted Data** | Execute trusted user input inside pickle function 'loads()'  
-📜[#18](https://twitter.com/yeswehack/status/1614985966178996225) - **LFI** | Improper user validation of filename  
+📜[#18](https://twitter.com/yeswehack/status/1614985966178996225) - **Path Traversal** | Improper user validation of filename  
 📜[#19](https://twitter.com/yeswehack/status/1616435388507201536) - **Open Redirect** | Invalid handling of user-controlled input '*location.hash*'  
 📜[#20](https://twitter.com/yeswehack/status/1618972101943107584) - **SQL injection** | Invalid use of function *replace()*, The char is only replaced once.  
 📜[#21](https://twitter.com/yeswehack/status/1621508813177212930) - **PostMessage DOM XSS** | No origin validation, leading to PostMessage DOM XSS  
