@@ -48,7 +48,8 @@ A Collection of all vulnerable code snippets posted on our Twitter 📂
 📜[#23](https://twitter.com/yeswehack/status/1631655669244784640) - **Buffer overflow** | Take user's STDIN input with the *gets()* function without checking the buffer size  
 📜[#24](https://twitter.com/yeswehack/status/1636725322447220739) - **SQL injection** | Incorrect use of the PHP function '*addslashes()*'  
 📜[#25](https://twitter.com/yeswehack/status/1639253229203599361) - **XSS - CSP bypass** | No validation of user input along with insecure handling of nonce  
-📜[#26](https://twitter.com/yeswehack/) - *Coming...*  
+📜[#26](https://twitter.com/yeswehack/status/1641776354315190272) - **Path Traversal** | The filter from the PHP function 'preg_replace()' is limited to filtering only the first 10 characters. 
+📜[#27](https://twitter.com/yeswehack/) - *Coming...* 
 
 
 
@@ -65,7 +66,7 @@ A Collection of all vulnerable code snippets posted on our Twitter 📂
 - [Cross Origin Resource Sharing (CORS)](https://owasp.org/www-community/attacks/CORS_OriginHeaderScrutiny) - CWE-942
 - [Clickjacking](https://owasp.org/www-community/attacks/Clickjacking) - CWE-1021  
 - [Unrestricted File Upload](https://owasp.org/www-community/vulnerabilities/Unrestricted_File_Upload) - CWE-434
-- [Path Traversal](https://owasp.org/www-community/attacks/Path_Traversal) - CWE-22  
+- [Path Traversal](https://owasp.org/www-community/attacks/Path_Traversal) - CWE-35 
 - [Denial Of Service](https://owasp.org/www-community/attacks/Denial_of_Service) - CWE-400  
 - [Weak Password Recovery Mechanism for Forgotten Password](https://cwe.mitre.org/data/definitions/640.html) - CWE-640  
 - [Insecure Direct Object Reference (IDOR)](https://cwe.mitre.org/data/definitions/639.html) - CWE-639  
