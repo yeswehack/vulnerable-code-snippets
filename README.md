@@ -49,7 +49,7 @@ A Collection of all vulnerable code snippets posted on our Twitter 📂
 📜[#24](https://twitter.com/yeswehack/status/1636725322447220739) - **SQL injection** | Incorrect use of the PHP function '*addslashes()*'  
 📜[#25](https://twitter.com/yeswehack/status/1639253229203599361) - **XSS - CSP bypass** | No validation of user input along with insecure handling of nonce  
 📜[#26](https://twitter.com/yeswehack/status/1641776354315190272) - **Path Traversal** | The filter provided by the PHP function "preg_replace()" is limited to filtering only the first 10 characters  
-📜[#27](https://twitter.com/yeswehack/) - *Coming...* 
+📜[#27](https://twitter.com/yeswehack/status/1646854408196456448) - *new!*  
 
 
 
