@@ -1,11 +1,14 @@
 from flask import Flask, request
 from flask_caching import Cache
-import re, datetime
+import datetime
 app = Flask(__name__)
 
 ##
 #   YesWeHack - Vulnerable Code Snippet
 ##
+
+#Install: pip install -r requirements.txt
+#Run: python3 27-new.py
 
 #Setup cache configurations:
 config = {
