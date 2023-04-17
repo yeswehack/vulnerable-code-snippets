@@ -49,7 +49,8 @@ A Collection of all vulnerable code snippets posted on our Twitter 📂
 📜[#24](https://twitter.com/yeswehack/status/1636725322447220739) - **SQL injection** | Incorrect use of the PHP function '*addslashes()*'  
 📜[#25](https://twitter.com/yeswehack/status/1639253229203599361) - **XSS - CSP bypass** | No validation of user input along with insecure handling of nonce  
 📜[#26](https://twitter.com/yeswehack/status/1641776354315190272) - **Path Traversal** | The filter provided by the PHP function "preg_replace()" is limited to filtering only the first 10 characters  
-📜[#27](https://twitter.com/yeswehack/status/1646854408196456448) - *new!*  
+📜[#27](https://twitter.com/yeswehack/status/1646854408196456448) - **Web Cache Poisoning** | The HTTP header '*Referer*' is reflected in the cached response body without being filtered.  
+📜[#28](https://twitter.com/yeswehack/status/1646854408196456448) - *Coming...*  
 
 
 
@@ -71,8 +72,10 @@ A Collection of all vulnerable code snippets posted on our Twitter 📂
 - [Weak Password Recovery Mechanism for Forgotten Password](https://cwe.mitre.org/data/definitions/640.html) - CWE-640  
 - [Insecure Direct Object Reference (IDOR)](https://cwe.mitre.org/data/definitions/639.html) - CWE-639  
 - [Deserialization Of Untrusted Data](https://owasp.org/www-community/vulnerabilities/Deserialization_of_untrusted_data) - CWE-502  
-- [Local File Inclusion](https://cwe.mitre.org/data/definitions/98.html) - CWE-98 
+- [Local File Inclusion](https://cwe.mitre.org/data/definitions/98.html) - CWE-98  
 - [Buffer Overflow](https://cwe.mitre.org/data/definitions/120.html) - CWE-120  
+- [Acceptance of Extraneous Untrusted Data With Trusted Data ("Cache Poisoning")](https://cwe.mitre.org/data/definitions/349.html) - CWE-349  
+
 
 
 
