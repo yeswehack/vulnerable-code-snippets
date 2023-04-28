@@ -1,0 +1,35 @@
+{
+    "accounts": {
+        "1":{
+            "id": 1,
+            "user":"admin",
+            "csrf": "639bae9ac6b3e1a84cebb7b403297b79"
+        },
+        "2":{
+            "id": 2,
+            "user":"sunny",
+            "csrf": "2c61ebff5a7f675451467527df66788d"
+            
+        },
+        "3":{
+            "id": 3,
+            "user":"kevin",
+            "csrf": "86280ac8a7f8881407ba060c76d72d6a"
+        },
+        "4":{
+            "id": 4,
+            "user":"martin",
+            "csrf": "0cc175b9c0f1b6a831c399e269772661"
+        },
+        "5":{
+            "id": 5,
+            "user":"james",
+            "csrf": "acaa16770db76c1ffb9cee51c3cabfcf"
+        },
+        "6":{
+            "id": 6,
+            "user":"linus",
+            "csrf": "d6a6bc0db10694a2d90e3a69648f3a03"
+        }
+    }
+}
