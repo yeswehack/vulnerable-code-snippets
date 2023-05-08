@@ -1,12 +1,12 @@
 <?php
 //Only design (ignore)
 include_once('../../design/design.php');
-Design(__FILE__, "30 - Vsnippet");
+Design(__FILE__, "30 - Insecure deserialization");
 
 //
 // YesWeHack - Vulnerable Code Snippet
 //
-//Run: php -S 127.1:5000 30-new.php
+//Run: php -S 127.1:5000 30-deserialization.php
 
 class Client {
     private $ip;
