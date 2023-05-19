@@ -24,7 +24,7 @@ class image {
         $this->filename = $name;
     }
     function load() {
-        echo ($this->path . $this->filename . $this->ext);
+        echo ($this->path . $this->filename . $this->ext);//<- DEBUG (mainly for help analyse how your input is filtered)
         include($this->path . $this->filename . $this->ext);
     }
 }
