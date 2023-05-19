@@ -15,7 +15,7 @@ echo '
 </pre>
 ';
 
-class image {
+class Msg {
     public $filename;
     public $path = './assets/';
     public $ext = '.txt';
@@ -33,7 +33,7 @@ $file = 'message';
 if ( isset($_GET['file']) ) {
     $file = str_replace('../', '', $_GET['file']);
 }
-$imgFile = new image($file);
-$imgFile->load();
+$msgFile = new Msg($file);
+$msgFile->load();
 
 ?>
