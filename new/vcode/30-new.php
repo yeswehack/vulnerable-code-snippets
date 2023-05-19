@@ -18,7 +18,7 @@ echo '
 class image {
     public $filename;
     public $path = './assets/';
-    public $ext = '.png';
+    public $ext = '.txt';
 
     function __construct($name) {
         $this->filename = $name;
@@ -29,9 +29,9 @@ class image {
     }
 }
 
-$file = 'index';
-if ( isset($_GET['img']) ) {
-    $file = str_replace('../', '', $_GET['img']);
+$file = 'message';
+if ( isset($_GET['file']) ) {
+    $file = str_replace('../', '', $_GET['file']);
     $imgFile = new image($file);
 }
 
