@@ -1,37 +1,40 @@
 <?php
-//Only design (ignore)
 include_once('../../design/design.php');
-Design(__FILE__, "30 - Vsnippet");
+Design(__FILE__, 'Vsnippet LFI');
 
-//
-// YesWeHack - Vulnerable Code Snippet
-//
-//Run: php -S 127.1:5000 30-new.php
+/**
+ * YesWeHack - Vulnerable Code Snippet
+ */
+//Run: php -S 127.1:5000
 
-class Client {
-    private $ip;
-    private $created;
 
-    function __construct() {
-        $this->ip = $_SERVER['HTTP_X_CLIENT_IP'];
-        $this->created = date('m/d/Y h:i:s a', time());
-        //Code...
+//Temporary messages to our customers:
+echo '
+<pre style="font-size:16px;color:red;">
+    The website is under development but will be back soon.
+</pre>
+';
+
+class image {
+    public $filename;
+    public $path = './assets/';
+    public $ext = '.png';
+
+    function __construct($name) {
+        $this->filename = $name;
     }
-    //Measure latency:
-    function __wakeup() {
-        $data = exec("ping -c 4 -W 5 -n " . $this->ip);
-        echo "Result: $data \n";
-        //Code...
+    function load() {
+        echo ($this->path . $this->filename . $this->ext);
+        include($this->path . $this->filename . $this->ext);
     }
 }
 
-if ( !isset($_COOKIE['client']) || strlen($_COOKIE['client']) == 0 ) {
-    $client = new Client();
-    setcookie("client", base64_encode(serialize($client)), ['httponly' => true]);
-} else {
-    $client_data = base64_decode(urldecode($_COOKIE['client']));
-    unserialize($client_data);
-    //Code...
+$file = 'index';
+if ( isset($_GET['img']) ) {
+    $file = str_replace('../', '', $_GET['img']);
+    $imgFile = new image($file);
 }
+
+$imgFile->load()
 
 ?>
