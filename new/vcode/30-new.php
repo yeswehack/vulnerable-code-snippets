@@ -24,7 +24,7 @@ class image {
         $this->filename = $name;
     }
     function load() {
-        echo ($this->path . $this->filename . $this->ext);//<- DEBUG (mainly for help analyse how your input is filtered)
+        echo "<p>" . ($this->path . $this->filename . $this->ext ) ."</p>";//<- DEBUG (mainly for help analyse how your input is filtered)
         include($this->path . $this->filename . $this->ext);
     }
 }
@@ -32,9 +32,8 @@ class image {
 $file = 'message';
 if ( isset($_GET['file']) ) {
     $file = str_replace('../', '', $_GET['file']);
-    $imgFile = new image($file);
 }
-
-$imgFile->load()
+$imgFile = new image($file);
+$imgFile->load();
 
 ?>
