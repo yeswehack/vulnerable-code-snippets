@@ -51,11 +51,9 @@ A Collection of all vulnerable code snippets posted on our Twitter 📂
 📜[#26](https://twitter.com/yeswehack/status/1641776354315190272) - **Path Traversal** | The filter provided by the PHP function "preg_replace()" is limited to filtering only the first 10 characters  
 📜[#27](https://twitter.com/yeswehack/status/1646854408196456448) - **Web Cache Poisoning** | The HTTP header '*Referer*' is reflected in the cached response body without being filtered  
 📜[#28](https://twitter.com/yeswehack/status/1649394393374248963) - **Business logic vulnerability** | An attacker can withdraw negative amounts to increase the overall balance of their account  
-📜[#29](https://twitter.com/yeswehack) - **IDOR** |  An attacker can gain access to sensitive data from other users by performing a *Forced browsing* attack    
+📜[#29](https://twitter.com/yeswehack/status/1651933932198285314) - **IDOR** |  An attacker can gain access to sensitive data from other users by performing a *Forced browsing* attack    
 📜[#30](https://twitter.com/yeswehack/status/1654465424560365568) - **Insecure deserialization** | Use of a dangerous function (*exec*) that can be controlled by the user, resulting in an RCE  
-📜[#31](https://twitter.com/yeswehack/) - *Coming...*  
-
-
+📜[#31](https://twitter.com/yeswehack/status/1659568814609117185) - **New!**  
 
 
 
