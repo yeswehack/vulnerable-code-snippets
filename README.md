@@ -54,7 +54,7 @@ A Collection of all vulnerable code snippets posted on our Twitter 📂
 📜[#29](https://twitter.com/yeswehack/status/1651933932198285314) - **IDOR** |  An attacker can gain access to sensitive data from other users by performing a *Forced browsing* attack    
 📜[#30](https://twitter.com/yeswehack/status/1654465424560365568) - **Insecure deserialization** | Use of a dangerous function (*exec*) that can be controlled by the user, resulting in an RCE  
 📜[#31](https://twitter.com/yeswehack/status/1659568814609117185) - **LFI** | No proper character escaping or filter verification. The "*include()*" function executes all PHP code in the given file, no matter the file extension, resulting in code injection.  
-📜[#31](https://twitter.com/yeswehack/) - *Coming...*  
+📜[#32](https://twitter.com/yeswehack/) - *Coming...*  
 
 
 
