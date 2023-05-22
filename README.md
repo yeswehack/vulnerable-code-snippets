@@ -36,24 +36,25 @@ A Collection of all vulnerable code snippets posted on our Twitter 📂
 📜[#11](https://twitter.com/yeswehack/status/1596141663075926017) - **CORS** | Misconfigured Access-Control-Allow header  
 📜[#12](https://twitter.com/yeswehack/status/1598678380072902660) - **CSRF/ClickJacking** | GET request CSRF with insecure delete process / ClickJacking - X-Frame-Options set in HTML meta tag  
 📜[#13](https://twitter.com/yeswehack/status/1601230194035105797) - **Path Traversal/Unrestricted File Upload** | Poor Path Traversal and file upload protection results in a code injection  
-📜[#14](https://twitter.com/yeswehack/status/1603751408678969347) - **DOS** | Incorrect operator handler in 'for loop'  
+📜[#14](https://twitter.com/yeswehack/status/1603751408678969347) - **DOS** | Incorrect operator handler in "for loop"  
 📜[#15](https://twitter.com/yeswehack/status/1606288516744347648) - **Weak Password Recovery Mechanism for Forgotten Password** | Weak hash for password recovery  
 📜[#16](https://twitter.com/yeswehack/status/1608822361419321350) - **IDOR** | insecure if statement leads to improper access control  
-📜[#17](https://twitter.com/yeswehack/status/1611361951644368898) - **Insecure deserialization** | Execute trusted user input inside pickle function 'loads()'  
+📜[#17](https://twitter.com/yeswehack/status/1611361951644368898) - **Insecure deserialization** | Execute trusted user input inside pickle function "*loads()*"  
 📜[#18](https://twitter.com/yeswehack/status/1614985966178996225) - **Path Traversal** | Improper user validation of filename  
-📜[#19](https://twitter.com/yeswehack/status/1616435388507201536) - **Open Redirect** | Invalid handling of user-controlled input '*location.hash*'  
+📜[#19](https://twitter.com/yeswehack/status/1616435388507201536) - **Open Redirect** | Invalid handling of user-controlled input "*location.hash*"  
 📜[#20](https://twitter.com/yeswehack/status/1618972101943107584) - **SQL injection** | Invalid use of function *replace()*, The char is only replaced once  
 📜[#21](https://twitter.com/yeswehack/status/1621508813177212930) - **PostMessage DOM XSS** | No origin validation, leading to PostMessage DOM XSS  
 📜[#22](https://twitter.com/yeswehack/status/1626582253215318016) - **XSS/OpenRedirect** | The filter protection does not filter all special characters that can be used to exploit the vulnerabilities  
 📜[#23](https://twitter.com/yeswehack/status/1631655669244784640) - **Buffer overflow** | Take user's STDIN input with the *gets()* function without checking the buffer size  
-📜[#24](https://twitter.com/yeswehack/status/1636725322447220739) - **SQL injection** | Incorrect use of the PHP function '*addslashes()*'  
+📜[#24](https://twitter.com/yeswehack/status/1636725322447220739) - **SQL injection** | Incorrect use of the PHP function "*addslashes()*"  
 📜[#25](https://twitter.com/yeswehack/status/1639253229203599361) - **XSS - CSP bypass** | No validation of user input along with insecure handling of nonce  
 📜[#26](https://twitter.com/yeswehack/status/1641776354315190272) - **Path Traversal** | The filter provided by the PHP function "preg_replace()" is limited to filtering only the first 10 characters  
-📜[#27](https://twitter.com/yeswehack/status/1646854408196456448) - **Web Cache Poisoning** | The HTTP header '*Referer*' is reflected in the cached response body without being filtered  
+📜[#27](https://twitter.com/yeswehack/status/1646854408196456448) - **Web Cache Poisoning** | The HTTP header "*Referer*" is reflected in the cached response body without being filtered  
 📜[#28](https://twitter.com/yeswehack/status/1649394393374248963) - **Business logic vulnerability** | An attacker can withdraw negative amounts to increase the overall balance of their account  
 📜[#29](https://twitter.com/yeswehack/status/1651933932198285314) - **IDOR** |  An attacker can gain access to sensitive data from other users by performing a *Forced browsing* attack    
 📜[#30](https://twitter.com/yeswehack/status/1654465424560365568) - **Insecure deserialization** | Use of a dangerous function (*exec*) that can be controlled by the user, resulting in an RCE  
-📜[#31](https://twitter.com/yeswehack/status/1659568814609117185) - **New!**  
+📜[#31](https://twitter.com/yeswehack/status/1659568814609117185) - **LFI** | No proper character escaping or filter verification. The "*include()*" function executes all PHP code in the given file, no matter the file extension, resulting in code injection.  
+📜[#31](https://twitter.com/yeswehack/) - *Coming...*  
 
 
 
