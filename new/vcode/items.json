@@ -1,0 +1,19 @@
+{
+    "1": {
+        "id": 1,
+        "price": 101,
+        "item": "hacker swag"
+    },
+
+    "2": {
+        "id": 2,
+        "price": 12,
+        "item": "teddy bear"
+    },
+
+    "3":{
+        "id": 3,
+        "price": 40,
+        "item": "fotball"
+    }
+}
