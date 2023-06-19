@@ -54,7 +54,8 @@ A Collection of all vulnerable code snippets posted on our Twitter 📂
 📜[#29](https://twitter.com/yeswehack/status/1651933932198285314) - **IDOR** |  An attacker can gain access to sensitive data from other users by performing a *Forced browsing* attack    
 📜[#30](https://twitter.com/yeswehack/status/1654465424560365568) - **Insecure deserialization** | Use of a dangerous function (*exec*) that can be controlled by the user, resulting in an RCE  
 📜[#31](https://twitter.com/yeswehack/status/1659568814609117185) - **LFI** | No proper character escaping or filter verification. The "*include()*" function executes all PHP code in the given file, no matter the file extension, resulting in code injection.  
-📜[#32](https://twitter.com/yeswehack/status/1669693673846591488) - **New!**  
+📜[#32](https://twitter.com/yeswehack/status/1669693673846591488) - **Format injection!** | Format a string containing values provided by the client, resulting in a format injection  
+📜[#33](https://twitter.com/yeswehack/) - *Coming soon...*  
 
 
 
@@ -80,9 +81,8 @@ A Collection of all vulnerable code snippets posted on our Twitter 📂
 - [Local File Inclusion](https://cwe.mitre.org/data/definitions/98.html) - CWE-98  
 - [Buffer Overflow](https://cwe.mitre.org/data/definitions/120.html) - CWE-120  
 - [Acceptance of Extraneous Untrusted Data With Trusted Data ("Cache Poisoning")](https://cwe.mitre.org/data/definitions/349.html) - CWE-349  
-- [Business Logic Errors](https://cwe.mitre.org/data/definitions/840.html) - CWE-840  
-
-
+- [Business Logic Errors](https://cwe.mitre.org/data/definitions/840.html) - CWE-840
+- [Format injection](https://cwe.mitre.org/data/definitions/134.html) - CWE-134  
 
 
 
