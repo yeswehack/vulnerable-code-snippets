@@ -55,7 +55,7 @@ A Collection of all vulnerable code snippets posted on our Twitter 📂
 📜[#30](https://twitter.com/yeswehack/status/1654465424560365568) - **Insecure deserialization** | Use of a dangerous function (*exec*) that can be controlled by the user, resulting in an RCE  
 📜[#31](https://twitter.com/yeswehack/status/1659568814609117185) - **LFI** | No proper character escaping or filter verification. The "*include()*" function executes all PHP code in the given file, no matter the file extension, resulting in code injection.  
 📜[#32](https://twitter.com/yeswehack/status/1669693673846591488) - **Format injection!** | Format a string containing values provided by the client, resulting in a format injection  
-📜[#33](https://twitter.com/yeswehack/) - *Coming soon...*  
+📜[#33](https://twitter.com/yeswehack/) - **New & Active!**  
 
 
 
