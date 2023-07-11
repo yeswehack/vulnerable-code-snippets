@@ -56,7 +56,7 @@ A Collection of all vulnerable code snippets posted on our Twitter 📂
 📜[#31](https://twitter.com/yeswehack/status/1659568814609117185) - **LFI** | No proper character escaping or filter verification. The "*include()*" function executes all PHP code in the given file, no matter the file extension, resulting in code injection.  
 📜[#32](https://twitter.com/yeswehack/status/1669693673846591488) - **Format injection!** | Format a string containing values provided by the client, resulting in a format injection  
 📜[#33](https://twitter.com/yeswehack/status/1678378536015372288) - **SQL injection (second order)** | All SQL queries use prepared statements except the last one. This statement extracts a value from the database that was once controlled by the user and adds it to the SQL query, leading to an SQL injection (second order).  
-📜[#33](https://twitter.com/yeswehack/) - *Coming...*  
+📜[#34](https://twitter.com/yeswehack/) - *Coming...*  
 
 
 
