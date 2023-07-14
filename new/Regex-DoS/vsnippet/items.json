@@ -1,0 +1,40 @@
+{
+    "products": {
+        "Ice cream":{
+            "id": 1,
+            "price":4.2,
+            "in-stock": 2,
+            "currency": "€"
+        },
+        "Twix":{
+            "id": 2,
+            "price": 1.01,
+            "in-stock": 1,
+            "currency": "€"
+        },
+        "Hot dog":{
+            "id": 3,
+            "price": 4.20,
+            "in-stock": 4,
+            "currency": "€"
+        },
+        "Snickers":{
+            "id": 4,
+            "price": 0.96,
+            "in-stock": 2,
+            "currency": "€"
+        },
+        "Coffee[subscribe]":{
+            "id": 5,
+            "price": 13.37,
+            "in-stock": 6,
+            "currency": "€"
+        },
+        "Tea[subscribe]":{
+            "id": 6,
+            "price": 0.07,
+            "in-stock": 9,
+            "currency": "€"
+        }
+    }
+}
