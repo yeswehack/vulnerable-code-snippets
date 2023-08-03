@@ -1,0 +1,58 @@
+!.gitignore
+
+# Python
+**/*.pyc
+**/*.pyo
+**/*.cover
+**/*.mo
+**/*.pot
+**/*.scrapy
+**/*__pycache__*
+
+# PHP
+**/*.stackdump
+**/.nfs*
+
+# JS Node
+**/node_modules
+*.pid
+*.seed
+*.pid.lock
+
+
+# C
+**/*.ilk
+**/*.map
+**/*.exp
+**/*.hex
+**/*.d
+**/*.mod*
+**/*.cmd
+**/.tmp_versions
+
+# Compiled
+**/*.o
+**/*.class
+
+# General
+**/*.cache
+**/*.DS_Store
+**/*.vscode
+**/*.vscode-test
+**/*.swp
+**/*.lock
+a.*
+x.*
+y.*
+z.*
+q.*
+test*
+logs
+foo.*
+bar.*
+dist
+.temp
+.tmp
+.log
+.env*
+
