@@ -57,7 +57,7 @@ A Collection of all vulnerable code snippets posted on our Twitter 📂
 📜[#32](https://twitter.com/yeswehack/status/1669693673846591488) - **Format injection!** | Format a string containing values provided by the client, resulting in a format injection  
 📜[#33](https://twitter.com/yeswehack/status/1678378536015372288) - **SQL injection (second order)** | All SQL queries use prepared statements except the last one. This statement extracts a value from the database that was once controlled by the user and adds it to the SQL query, leading to an SQL injection (second order).  
 📜[#34](https://twitter.com/yeswehack/status/1680877622685843456) - **Regular expression Denial of Service (ReDoS)** | Poorly configured regex pattern used to filter user-controlled input.  
-📜[#35](https://twitter.com/yeswehack/) - *In development...*  
+📜[#35](https://twitter.com/yeswehack/) - **Check the 'New' folder!**  
 
 
 
