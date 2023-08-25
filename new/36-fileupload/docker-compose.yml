@@ -1,9 +1,9 @@
 version: '3.8'
 services:
-    35-java-xss:
-        container_name: vsnippet-xss-35
+    vsnippet-fileupload-36:
+        container_name: vsnippet-fileupload-36
         build:
             context: .
             dockerfile: Dockerfile
         ports:
-            - 1337:1337
+            - 1337:80
