@@ -1,0 +1,11 @@
+**/*.DS_Store
+**/*.vscode/
+**/*.idea/
+**/*.git/
+**/*.log
+tests/
+fixtures/
+coverage/
+coverage.xml
+images/
+node_modules/
