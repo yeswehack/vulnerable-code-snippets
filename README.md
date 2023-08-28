@@ -22,43 +22,44 @@ https://dojo-yeswehack.com/Playground#eyJkZXNjcmlwdGlvbiI6IldvcmtzIGluIG1vc3Qgb3
 > Be sure to run this in a secure environment, as the code is vulnerable and is intended to be used for learning code analysis!
 
 ## Twitter posts 🔖
-A Collection of all vulnerable code snippets posted on our Twitter 📂
-📜[#1](https://twitter.com/yeswehack/status/1570757831468679169) - **SQLi & XSS** | Backslash filter collide
-📜[#2](https://twitter.com/yeswehack/status/1573303741310271490) - **Improper file access & XSS** | Invalid char and regex verificaion
-📜[#3](https://twitter.com/yeswehack/status/1575839882269818881) - **Log Forging injection, Path traversal & Code injection** | Poor filter and improper include() handling
-📜[#4](https://twitter.com/yeswehack/status/1578370258230194177) - **XSS** | Invalid user input filter
-📜[#5](https://twitter.com/yeswehack/status/1580911299382296576) - **SSRF & Broken authorization** | Trusted user input and client IP from header
-📜[#6](https://twitter.com/yeswehack/status/1583445497687130114) - **SSTI** | Mixed input format
-📜[#7](https://twitter.com/yeswehack/status/1585979707522134017) - **SQLi** | Use of invalid variable within statement
-📜[#8](https://twitter.com/yeswehack/status/1588531516665171969) - **CSRF** | No CSRF token included
-📜[#9](https://twitter.com/yeswehack/status/1591068243439009798) - **Open Redirect** | Invalid regex handler
-📜[#10](https://twitter.com/yeswehack/status/1593604941897236485) - **DOM XSS** | Backend filter collide with client side JavaScript
-📜[#11](https://twitter.com/yeswehack/status/1596141663075926017) - **CORS** | Misconfigured Access-Control-Allow header
-📜[#12](https://twitter.com/yeswehack/status/1598678380072902660) - **CSRF/ClickJacking** | GET request CSRF with insecure delete process / ClickJacking - X-Frame-Options set in HTML meta tag
-📜[#13](https://twitter.com/yeswehack/status/1601230194035105797) - **Path Traversal/Unrestricted File Upload** | Poor Path Traversal and file upload protection results in a code injection
-📜[#14](https://twitter.com/yeswehack/status/1603751408678969347) - **DOS** | Incorrect operator handler in "for loop"
-📜[#15](https://twitter.com/yeswehack/status/1606288516744347648) - **Weak Password Recovery Mechanism for Forgotten Password** | Weak hash for password recovery
-📜[#16](https://twitter.com/yeswehack/status/1608822361419321350) - **IDOR** | insecure if statement leads to improper access control
-📜[#17](https://twitter.com/yeswehack/status/1611361951644368898) - **Insecure deserialization** | Execute trusted user input inside pickle function "*loads()*"
-📜[#18](https://twitter.com/yeswehack/status/1614985966178996225) - **Path Traversal** | Improper user validation of filename
-📜[#19](https://twitter.com/yeswehack/status/1616435388507201536) - **Open Redirect** | Invalid handling of user-controlled input "*location.hash*"
-📜[#20](https://twitter.com/yeswehack/status/1618972101943107584) - **SQL injection** | Invalid use of function *replace()*, The char is only replaced once
-📜[#21](https://twitter.com/yeswehack/status/1621508813177212930) - **PostMessage DOM XSS** | No origin validation, leading to PostMessage DOM XSS
-📜[#22](https://twitter.com/yeswehack/status/1626582253215318016) - **XSS/OpenRedirect** | The filter protection does not filter all special characters that can be used to exploit the vulnerabilities
-📜[#23](https://twitter.com/yeswehack/status/1631655669244784640) - **Buffer overflow** | Take user's STDIN input with the *gets()* function without checking the buffer size
-📜[#24](https://twitter.com/yeswehack/status/1636725322447220739) - **SQL injection** | Incorrect use of the PHP function "*addslashes()*"
-📜[#25](https://twitter.com/yeswehack/status/1639253229203599361) - **XSS - CSP bypass** | No validation of user input along with insecure handling of nonce
-📜[#26](https://twitter.com/yeswehack/status/1641776354315190272) - **Path Traversal** | The filter provided by the PHP function "preg_replace()" is limited to filtering only the first 10 characters
-📜[#27](https://twitter.com/yeswehack/status/1646854408196456448) - **Web Cache Poisoning** | The HTTP header "*Referer*" is reflected in the cached response body without being filtered
-📜[#28](https://twitter.com/yeswehack/status/1649394393374248963) - **Business logic vulnerability** | An attacker can withdraw negative amounts to increase the overall balance of their account
-📜[#29](https://twitter.com/yeswehack/status/1651933932198285314) - **IDOR** |  An attacker can gain access to sensitive data from other users by performing a *Forced browsing* attack
-📜[#30](https://twitter.com/yeswehack/status/1654465424560365568) - **Insecure deserialization** | Use of a dangerous function (*exec*) that can be controlled by the user, resulting in an RCE
-📜[#31](https://twitter.com/yeswehack/status/1659568814609117185) - **LFI** | No proper character escaping or filter verification. The "*include()*" function executes all PHP code in the given file, no matter the file extension, resulting in code injection.
-📜[#32](https://twitter.com/yeswehack/status/1669693673846591488) - **Format injection!** | Format a string containing values provided by the client, resulting in a format injection
-📜[#33](https://twitter.com/yeswehack/status/1678378536015372288) - **SQL injection (second order)** | All SQL queries use prepared statements except the last one. This statement extracts a value from the database that was once controlled by the user and adds it to the SQL query, leading to an SQL injection (second order).
-📜[#34](https://twitter.com/yeswehack/status/1680877622685843456) - **Regular expression Denial of Service (ReDoS)** | Poorly configured regex pattern used to filter user-controlled input.
-📜[#35](https://twitter.com/yeswehack/status/1691057079996350464) - **XSS** | Trusted user input in GET parameter
-📜[#36](https://twitter.com/yeswehack/) - *Development in process...*
+A Collection of all vulnerable code snippets posted on our Twitter 📂  
+  
+📜[#1](https://twitter.com/yeswehack/status/1570757831468679169) - **SQLi & XSS** | Backslash filter collide  
+📜[#2](https://twitter.com/yeswehack/status/1573303741310271490) - **Improper file access & XSS** | Invalid char and regex verificaion  
+📜[#3](https://twitter.com/yeswehack/status/1575839882269818881) - **Log Forging injection, Path traversal & Code injection** | Poor filter and improper include() handling  
+📜[#4](https://twitter.com/yeswehack/status/1578370258230194177) - **XSS** | Invalid user input filter  
+📜[#5](https://twitter.com/yeswehack/status/1580911299382296576) - **SSRF & Broken authorization** | Trusted user input and client IP from header  
+📜[#6](https://twitter.com/yeswehack/status/1583445497687130114) - **SSTI** | Mixed input format  
+📜[#7](https://twitter.com/yeswehack/status/1585979707522134017) - **SQLi** | Use of invalid variable within statement  
+📜[#8](https://twitter.com/yeswehack/status/1588531516665171969) - **CSRF** | No CSRF token included  
+📜[#9](https://twitter.com/yeswehack/status/1591068243439009798) - **Open Redirect** | Invalid regex handler  
+📜[#10](https://twitter.com/yeswehack/status/1593604941897236485) - **DOM XSS** | Backend filter collide with client side JavaScript  
+📜[#11](https://twitter.com/yeswehack/status/1596141663075926017) - **CORS** | Misconfigured Access-Control-Allow header  
+📜[#12](https://twitter.com/yeswehack/status/1598678380072902660) - **CSRF/ClickJacking** | GET request CSRF with insecure delete process / ClickJacking - X-Frame-Options set in HTML meta tag  
+📜[#13](https://twitter.com/yeswehack/status/1601230194035105797) - **Path Traversal/Unrestricted File Upload** | Poor Path Traversal and file upload protection results in a code injection  
+📜[#14](https://twitter.com/yeswehack/status/1603751408678969347) - **DOS** | Incorrect operator handler in "for loop"  
+📜[#15](https://twitter.com/yeswehack/status/1606288516744347648) - **Weak Password Recovery Mechanism for Forgotten Password** | Weak hash for password recovery  
+📜[#16](https://twitter.com/yeswehack/status/1608822361419321350) - **IDOR** | insecure if statement leads to improper access control  
+📜[#17](https://twitter.com/yeswehack/status/1611361951644368898) - **Insecure deserialization** | Execute trusted user input inside pickle function "*loads()*"  
+📜[#18](https://twitter.com/yeswehack/status/1614985966178996225) - **Path Traversal** | Improper user validation of filename  
+📜[#19](https://twitter.com/yeswehack/status/1616435388507201536) - **Open Redirect** | Invalid handling of user-controlled input "*location.hash*"  
+📜[#20](https://twitter.com/yeswehack/status/1618972101943107584) - **SQL injection** | Invalid use of function *replace()*, The char is only replaced once  
+📜[#21](https://twitter.com/yeswehack/status/1621508813177212930) - **PostMessage DOM XSS** | No origin validation, leading to PostMessage DOM XSS  
+📜[#22](https://twitter.com/yeswehack/status/1626582253215318016) - **XSS/OpenRedirect** | The filter protection does not filter all special characters that can be used to exploit the vulnerabilities  
+📜[#23](https://twitter.com/yeswehack/status/1631655669244784640) - **Buffer overflow** | Take user's STDIN input with the *gets()* function without checking the buffer size  
+📜[#24](https://twitter.com/yeswehack/status/1636725322447220739) - **SQL injection** | Incorrect use of the PHP function "*addslashes()*"  
+📜[#25](https://twitter.com/yeswehack/status/1639253229203599361) - **XSS - CSP bypass** | No validation of user input along with insecure handling of nonce  
+📜[#26](https://twitter.com/yeswehack/status/1641776354315190272) - **Path Traversal** | The filter provided by the PHP function "preg_replace()" is limited to filtering only the first 10 characters  
+📜[#27](https://twitter.com/yeswehack/status/1646854408196456448) - **Web Cache Poisoning** | The HTTP header "*Referer*" is reflected in the cached response body without being filtered  
+📜[#28](https://twitter.com/yeswehack/status/1649394393374248963) - **Business logic vulnerability** | An attacker can withdraw negative amounts to increase the overall balance of their account  
+📜[#29](https://twitter.com/yeswehack/status/1651933932198285314) - **IDOR** |  An attacker can gain access to sensitive data from other users by performing a *Forced browsing* attack  
+📜[#30](https://twitter.com/yeswehack/status/1654465424560365568) - **Insecure deserialization** | Use of a dangerous function (*exec*) that can be controlled by the user, resulting in an RCE  
+📜[#31](https://twitter.com/yeswehack/status/1659568814609117185) - **LFI** | No proper character escaping or filter verification. The "*include()*" function executes all PHP code in the given file, no matter the file extension, resulting in code injection.  
+📜[#32](https://twitter.com/yeswehack/status/1669693673846591488) - **Format injection!** | Format a string containing values provided by the client, resulting in a format injection  
+📜[#33](https://twitter.com/yeswehack/status/1678378536015372288) - **SQL injection (second order)** | All SQL queries use prepared statements except the last one. This statement extracts a value from the database that was once controlled by the user and adds it to the SQL query, leading to an SQL injection (second order).  
+📜[#34](https://twitter.com/yeswehack/status/1680877622685843456) - **Regular expression Denial of Service (ReDoS)** | Poorly configured regex pattern used to filter user-controlled input.  
+📜[#35](https://twitter.com/yeswehack/status/1691057079996350464) - **XSS** | Trusted user input in GET parameter  
+📜[#36](https://twitter.com/yeswehack/) - *Development in process...*  
 
 
 
