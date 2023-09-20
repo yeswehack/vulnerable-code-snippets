@@ -2,20 +2,14 @@
 FROM php:8.2-apache
 
 #Install and update system dependencies
-RUN apt update -y; apt install -y supervisor apache2 curl php-curl
-WORKDIR /var/www/html/
+RUN apt update -y; apt install -y supervisor apache2
 
 #Prepare and setup the working directory
 WORKDIR /var/www/html/
 COPY vsnippet .
-RUN mkdir tmp
 
 #Copy configs
 COPY config/supervisord.conf /etc/supervisord.conf
-COPY config/php-custom.ini /usr/local/etc/php/conf.d
-
-#Give permission:
-RUN chown -R www-data /var/www/html/
 
 EXPOSE 1337
 

@@ -1,7 +1,7 @@
 version: '3.8'
 services:
-    vsnippet-fileupload-36:
-        container_name: vsnippet-fileupload-36
+    vsnippet-ssrf-37:
+        container_name: vsnippet-ssrf-37
         build:
             context: .
             dockerfile: Dockerfile

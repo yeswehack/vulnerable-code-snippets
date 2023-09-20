@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+    vsnippet-ssrf-37:
+        container_name: vsnippet-ssrf-37
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - 1337:80
