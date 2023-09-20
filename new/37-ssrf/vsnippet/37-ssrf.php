@@ -19,7 +19,7 @@ $design = Design(__FILE__, );
 if (isset($_SERVER['HTTP_X_FORWARDED_HOST']) ) {
     $xfh = $_SERVER['HTTP_X_FORWARDED_HOST'];
 
-    //In case of success it's only return the status code, nothing else, right?
+    //In case of success, only the status code is returned, nothing else, right?
     $ch = curl_init($xfh);
     curl_exec($ch);
     curl_close($ch);
