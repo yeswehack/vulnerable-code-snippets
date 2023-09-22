@@ -60,6 +60,9 @@ A Collection of all vulnerable code snippets posted on our Twitter 📂
 📜[#34](https://twitter.com/yeswehack/status/1680877622685843456) - **Regular expression Denial of Service (ReDoS)** | Poorly configured regex pattern used to filter user-controlled input  
 📜[#35](https://twitter.com/yeswehack/status/1691057079996350464) - **XSS** | Trusted user input in GET parameter  
 📜[#36](https://twitter.com/yeswehack/status/1696130513038418312) - **Unrestricted File Upload** | Insufficient validation of the file extension of the uploaded file and missed validation of the file content  
+📜[#37](https://twitter.com/yeswehack/status/1705190707768479828) - **SSRF** | Insecure handling of the proxy header X-Forwarded-Host and cURL leading to a full SSRF  
+📜[#38](https://twitter.com/yeswehack/) - *Under development...*  
+
 
 
 
