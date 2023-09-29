@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+    vsnippet-codeinjection-38:
+        container_name: vsnippet-codeinjection-38
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - 1337:80
