@@ -6,10 +6,11 @@ Test it:
 https://dojo-yeswehack.com/Playground#eyJkZXNjcmlwdGlvbiI6IldvcmtzIGluIG1vc3Qgb3V0YnJlYWsgc2VuYXJpb3MgKyBzdGFuZGFyZCBET00gWFNTLCB5dyIsInNvbHV0aW9uIjpudWxsLCJoaW50cyI6W10sInF1ZXJ5Ijp7ImJhY2tlbmQiOiJYU1MiLCJ0ZW1wbGF0ZSI6IlxuPGRpdiB2YWx1ZT1cIiRwYXlsb2FkXCI+XG48ZGl2IHZhbHVlPSckcGF5bG9hZCc+XG5cbjxwIGlkPVwiZG9tXCI+Li4uPC9wPlxuPHNjcmlwdD5cbi8qJHBheWxvYWQqL1xueCA9IFwiJHBheWxvYWRcIjtcbnkgPSAnJHBheWxvYWQnO1xuXG4vL0RPTSBYU1MgUE9DOlxuZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ2RvbScpLmlubmVySFRNTD0gYCRwYXlsb2FkYFxuXG4vLyRwYXlsb2FkXG48L3NjcmlwdD4tLT5cbiIsImZpbHRlcnMiOnsiJHBheWxvYWQiOlt7ImZ1bmMiOiJVUkwgZGVjb2RlIiwiYXJncyI6W119XX19fQ==
 -->
 
-<h1 align="center">
- <img src="./img/ywhlogo.png" alt="YWH Logo" width="40px" height="40px"> Vulnerable Code Snippets
- <img src="./img/VsnippetBanner.gif" alt="Vulnerable code snippet (Vsnippet) banner YesWeHack Github repo">
-</h1>
+<div align="center">
+ <h1><img src="./img/ywhlogo.png" alt="YWH Logo" width="40px" height="40px"> Vulnerable Code Snippets</h1>
+ <img src="./img/VsnippetBanner.gif" alt="Vulnerable code snippet (Vsnippet) banner YesWeHack Github repository">
+</div>
+
 
 [YesWeHack](https://www.yeswehack.com/) present code snippets containing several different vulnerabilities to practice your code analysis. The code snippets are beginner friendly but suitable for all levels!
 
