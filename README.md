@@ -7,8 +7,8 @@ https://dojo-yeswehack.com/Playground#eyJkZXNjcmlwdGlvbiI6IldvcmtzIGluIG1vc3Qgb3
 -->
 
 <div align="center">
- <h1><img src="./img/ywh_logo.png" alt="YWH Logo" width="40px" height="40px"> Vulnerable Code Snippets</h1>
- <img src="./img/VsnippetBanner.gif" alt="Vulnerable code snippet (Vsnippet) banner YesWeHack Github repository">
+ <h1><img src="./img/ywh_logo.png" alt="YWH Logo" width="24" height="auto"> Vulnerable Code Snippets</h1>
+ <img src="./img/VsnippetBanner.gif" alt="Vulnerable code snippet (Vsnippet) banner YesWeHack Github repository" >
 </div>
 
 
