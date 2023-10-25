@@ -1,0 +1,28 @@
+.navbar {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 10%;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center !important;
+    text-decoration: none;
+    width: 100px;
+    height: 50px;
+    padding: 40px;
+    margin: 40px;
+    font-size: 28px;
+    border-radius: 12px !important;
+    border: 2px solid #09d8c4;
+    padding: 4px;
+}
+
+.navbar a:hover {
+    background-color:#09af9e;
+    color: #0be6d0;
+}
+

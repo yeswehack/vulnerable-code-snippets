@@ -1,5 +1,5 @@
 #PHP Apache setup
-FROM php:8.2-apache
+FROM php:7.2-apache
 
 #Install and update system dependencies
 RUN apt update -y; apt install -y supervisor apache2
@@ -10,6 +10,7 @@ COPY vsnippet .
 
 #Copy configs
 COPY config/supervisord.conf /etc/supervisord.conf
+COPY config/apache.conf /etc/apache2/sites-enabled/apache.conf
 
 EXPOSE 1337
 
