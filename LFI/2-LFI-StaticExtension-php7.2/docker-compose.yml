@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+    vsnippet-lfi-static-extension-php7.2-39:
+        container_name: vsnippet-lfi-static-extension-php7.2-39
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - 1337:80
