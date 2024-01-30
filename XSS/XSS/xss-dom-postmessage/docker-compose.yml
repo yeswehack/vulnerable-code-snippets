@@ -1,9 +1,9 @@
 version: '3.8'
 services:
-    35-java-xss:
-        container_name: vsnippet-xss-35
+    php-apache:
+        container_name: vsnippet-xss-dom-postmessage-21
         build:
             context: .
             dockerfile: Dockerfile
         ports:
-            - 1337:1337
+            - 1337:80

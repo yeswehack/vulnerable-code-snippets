@@ -1,6 +1,5 @@
 <?php
-
-/**
+/*
 * YesWeHack - Vulnerable Code Snippet
 */
 
@@ -11,16 +10,19 @@ function GetNonce() {
 $nonce = GetNonce();
 header("Content-Security-Policy: script-src 'nonce-$nonce'");
 
-include_once('../../design/design.php');//<-ignore (Design only)
-Design(__FILE__, '25 - VSnippet');//<-ignore (Design only)
+//Ignore the php code below (design only)
+include_once('./ignore/design/design.php');
+$title = 'Vsnippet #25 - Cross Site Scripting (XSS) CSP bypass';
+$design = Design(__FILE__, $title);
 ?>
 
 <!DOCTYPE html>
 <html>
     <head>
-    <title>25 - XSS (CSP Bypass)</title>
+      <title><?= $title ?></title>
     </head>
 <body>
+<h1><?= $title ?></h1>
 
 <p><?= ( isset($_GET["message"]) ) ? $_GET["message"] : 'session expired' ?></p>
 
@@ -35,9 +37,13 @@ Design(__FILE__, '25 - VSnippet');//<-ignore (Design only)
 
         scrptTag.nonce = document.currentScript.nonce;
         scrptTag.src = ("//" + host + '/checkLogout.js');
-        
+
         document.body.appendChild(scrptTag);
-    }   
+    }
 </script>
+
+<div>
+<?= $design ?>
+</div>
 </body>
 </html>

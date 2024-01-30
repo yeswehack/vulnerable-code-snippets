@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+    vsnippet-xss-script-tag-4:
+        container_name: vsnippet-xss-script-tag-4
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - 1337:1337

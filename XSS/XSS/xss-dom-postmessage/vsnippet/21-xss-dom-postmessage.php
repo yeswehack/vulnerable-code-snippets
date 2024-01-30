@@ -1,10 +1,24 @@
+<?php
+//Ignore the design setup below:
+include_once('./ignore/design/design.php');
+$title = 'Vsnippet #36 - Unrestricted File Upload Vulnerability';
+$design = Design(__FILE__, );
+
+/*
+* YesWeHack - Vulnerable Code Snippet
+*/
+
+?>
+
 <!DOCTYPE html>
 <html>
-  <title>21-Vsnippet - PostMessage DOM XSS</title>
-<head>
-    <link rel="stylesheet" href="../../design/design.css">
-  </head>
+    <head>
+      <title><?= $title ?></title>
+    </head>
 <body>
+<h1><?= $title ?></h1>
+
+
 <center>
 <label>Game4Hack3r$</label><br>
 <textarea type="text" id="username" placeholder="your username..."></textarea><br>
@@ -23,5 +37,9 @@
 
   //Code...
 </script>
+
+<div>
+<?= $design ?>
+</div>
 </body>
 </html>
