@@ -1,12 +1,10 @@
 <?php
-include_once('../../design/design.php');
-Design(__FILE__, 'Vsnippet LFI');
+include_once('./ignore/design/design.php');
+Design(__FILE__, 'Vsnippet #31 - Local File Inclusion (LFI)');
 
 /**
  * YesWeHack - Vulnerable Code Snippet
  */
-//Run: php -S 127.1:5000
-
 
 //Temporary messages to our customers:
 echo '
@@ -20,8 +18,8 @@ class Msg {
     public $path = './assets/';
     public $ext = '.txt';
 
-    function __construct($name) {
-        $this->filename = $name;
+    function __construct($f) {
+        $this->filename = $f;
     }
     function load() {
         echo "<p>" . ($this->path . $this->filename . $this->ext ) ."</p>";//<- DEBUG (mainly for help analyse how your input is filtered)
