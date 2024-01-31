@@ -1,6 +1,6 @@
 version: '3.8'
 services:
-    vsnippet-xss-script-tag-4:
+    python-flask:
         container_name: vsnippet-xss-script-tag-4
         build:
             context: .

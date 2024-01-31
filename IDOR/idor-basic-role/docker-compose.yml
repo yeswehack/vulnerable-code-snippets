@@ -1,6 +1,6 @@
 version: '3.8'
 services:
-    idor-basic-role:
+    python-flask:
         container_name: idor-basic-role-41
         build:
             context: .
