@@ -3,7 +3,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
 const crypto = require('crypto')
-const db = require('./../../db/db.js');
+const db = require('../../db/db.js');
 
 const app = express()
 app.use(bodyParser.urlencoded({ extended: true }));

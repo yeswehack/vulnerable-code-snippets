@@ -1,1 +1,0 @@
-<?php header('Location: 33-SoSQLi.php', true, 302); ?>

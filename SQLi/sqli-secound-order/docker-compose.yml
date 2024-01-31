@@ -1,0 +1,26 @@
+version: '3.8'
+services:
+    php-apache:
+        container_name: vsnippet-sqli-secound-order-33
+        build:
+            context: .
+            dockerfile: Dockerfile
+        depends_on:
+            - db-mysql
+        volumes:
+            - ./vsnippet:/var/www/html/
+        ports:
+            - 1337:80
+    db-mysql:
+        container_name: vsnippet-db-mysql-sqli-secound-order-33
+        volumes:
+            - ./config/mysql.sql:/docker-entrypoint-initdb.d/mysql.sql
+        image: mysql
+        restart: always
+        environment:
+            MYSQL_DATABASE: ywhvsnippet
+            MYSQL_USER: vsnippet
+            MYSQL_PASSWORD: vsnippet
+            MYSQL_ROOT_PASSWORD: supervulnerableroot
+        ports:
+            - "1338:3306"
