@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+    command-injection-escapeshellcmd-41:
+        container_name: command-injection-escapeshellcmd-41
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - 1337:80
