@@ -2,8 +2,7 @@
 from flask import Flask, json, render_template, request
 import datetime
 from ignore.design import design
-app = design.Design(Flask(__name__), __file__, 'Vsnippet 32 - Format injection')
-
+app = design.Design(Flask(__name__), __file__, 'Vsnippet #32 - Format injection classic')
 
 
 ##

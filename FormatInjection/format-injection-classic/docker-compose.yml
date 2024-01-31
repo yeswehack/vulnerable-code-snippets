@@ -1,7 +1,7 @@
 version: '3.8'
 services:
-    vsnippet-formatinjection-32:
-        container_name: vsnippet-formatinjection-32
+    python-flask:
+        container_name: vsnippet-format-injection-classic-32
         build:
             context: .
             dockerfile: Dockerfile
