@@ -1,7 +1,7 @@
 <?php
 //Ignore the design setup below:
 include_once('./ignore/design/design.php');
-$title = 'Vsnippet #37 - Server-side request forgery (SSRF)';
+$title = 'Vsnippet #37 - Server-side request forgery (SSRF) X-Forwarded-Host header spoofing';
 $design = Design(__FILE__, );
 
 /*

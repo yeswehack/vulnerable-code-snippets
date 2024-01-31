@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> {{ config.TITLE }} </title>
+</head>
+<body>
+<h1> {{ config.TITLE }} </h1>
+
+<form action="/">
+    <input type="text" name="id" placeholder="search item by id...">
+    <button type="submit">search</button>
+</form>
+
+
+<!--Vsnippet output-->
+<h2> {{ result }} </h2>
+
+<style>
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+body {
+    padding: 2%;
+    font-family: "VT323", monospace;
+    background-color: #000;
+    color: white;
+}
+input, button {
+    padding: 10px;
+    background-color: rgb(10, 10, 10);
+    border: 2px solid #09d8c4;
+    border-radius: 10px;
+    color: white;
+}
+#Vcode {
+    z-index: -1;
+    opacity: 0.8;
+    position: absolute;
+    transform: translate(-100%, -100%);
+    top: 96%;
+    left: 98%;
+    word-wrap: break-word;
+    padding: 2%;
+    background-color: rgb(10, 10, 10);
+    border: 2px solid #09d8c4;
+    border-radius: 10px;
+    font-size: 14px;
+}
+</style>
+
+<div id="Vcode">
+    <pre style="color:#ff8533;">{{ config.SOURCE_CODE }}</pre>
+</div>
+</body>
+</html>
