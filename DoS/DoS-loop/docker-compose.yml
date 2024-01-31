@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+    php-apache:
+        container_name: vsnippet-DoS-loop-14
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - 1337:80

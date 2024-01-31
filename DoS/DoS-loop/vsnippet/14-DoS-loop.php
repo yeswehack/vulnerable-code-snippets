@@ -1,15 +1,15 @@
 <?php
+//Ignore the php code below (design only)
+include_once('./ignore/design/design.php');
+$title = 'Vsnippet #14 - Denial-of-service (DoS) - Invalid for-loop';
+$design = Design(__FILE__, $title);
 
 /*
 * YesWeHack - Vulnerable code snippets
 */
+?>
 
-/**[WARNING]
- *  Not needed but... It's recommended to run & exploit this code inside a Virtual machine (VM) or docker.
- *  Without spoiling to much. PHP "timeout" is ~30s.
- */
-
-//[RUN]: "php -S 127.1:5000 14-new.php"
+<?php
 function InviteLink($from, $to) {  
 
     //Variables:
@@ -17,7 +17,6 @@ function InviteLink($from, $to) {
     $t = intval($to);
     $l = "abcdefghijklmnopqrstuvwxyz";
     $invite = "";
-
 
     //Control the length:
     if ( ( ($f >= 0 && $f <= 16) && $t <= 64 ) == false) {
@@ -40,3 +39,16 @@ if ( isset($_GET['from']) || isset($_GET['to']) ) {
 }
 
 ?>
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title><?= $title ?></title>
+    </head>
+<body>
+<h1><?= $title ?></h1>
+<div>
+<?= $design ?>
+</div>
+</body>
+</html>

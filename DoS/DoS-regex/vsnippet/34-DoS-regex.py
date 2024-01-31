@@ -2,7 +2,7 @@
 from flask import Flask, json, render_template, request
 from ignore.design import design
 import re, html
-app = design.Design(Flask(__name__), __file__, 'Vsnippet 34 - Regular expression Denial of Service (ReDoS)')
+app = design.Design(Flask(__name__), __file__, 'Vsnippet #34 - Regular expression Denial of Service (ReDoS)')
 
 ##
 # YesWeHack - Vulnerable code snippets
