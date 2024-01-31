@@ -39,7 +39,7 @@ if( isset($_POST["submit"])) {
 <title><?= $title ?></title>
 <body>
 <h1><?= $title ?></h1>
-e
+
 <img id="profilePicture" src="data:image/png;base64,<?= showImage($imageName) ?>">
 
 <div>

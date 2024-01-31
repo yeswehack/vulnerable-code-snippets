@@ -1,7 +1,7 @@
 version: '3.8'
 services:
-    fileupload-extension-blacklist-40:
-        container_name: fileupload-extension-blacklist-40
+    php-apache:
+        container_name: file-upload-extension-blacklist-40
         build:
             context: .
             dockerfile: Dockerfile

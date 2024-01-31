@@ -1,7 +1,7 @@
 <?php
 //Ignore the design setup below:
 include_once('./ignore/design/design.php');
-$title = 'Vsnippet #36 - Unrestricted File Upload Vulnerability';
+$title = 'Vsnippet #40 - File Upload extension blacklist';
 $design = Design(__FILE__);
 
 /*
