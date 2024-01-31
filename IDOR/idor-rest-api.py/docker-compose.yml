@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+    python-flask:
+        container_name: idor-rest-api.py-26
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - 1337:1337

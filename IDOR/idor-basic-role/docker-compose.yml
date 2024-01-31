@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+    idor-basic-role:
+        container_name: idor-basic-role-41
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - 1337:1337

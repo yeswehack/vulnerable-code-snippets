@@ -1,10 +1,15 @@
 <?php
-include_once('../../design/design.php');
-Design(__FILE__, '16-Vsnippet');
+//Ignore the design setup below:
+include_once('./ignore/design/design.php');
+$title = 'Vsnippet #26 - Insecure direct object references (IDOR) due to invalid if statement operator';
+$design = Design(__FILE__, );
 
-/**
+/*
 * YesWeHack - Vulnerable Code Snippet
 */
+?>
+
+<?php
 
 function View($sess, $user, $id) {    
     //Return content only if the user is an administrator:
@@ -26,3 +31,14 @@ if ( isset($_GET['details'], $_COOKIE['usess'], $_COOKIE['id']) ) {
 }
 
 ?>
+
+<!DOCTYPE html>
+<html>
+<title><?= $title ?></title>
+<body>
+<h1><?= $title ?></h1>
+<div>
+<?= $design ?>
+</div>
+</body>
+</html>

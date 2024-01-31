@@ -1,16 +1,20 @@
-<?php 
-include_once('../../design/design.php');
-include('./../../db/db.php');
+<?php
+include_once('./ignore/design/design.php');
+include("./ignore/db/db.php");
+$title = 'Vsnippet 15 - Insecure direct object references (IDOR) in password recovery hashes';
+$design = Design(__FILE__);
 
 /*
-* YesWeHack - Vulnerable Code Snippets
+* YesWeHack - Vulnerable Code Snippet
 */
 
-Design(__FILE__, "15-VSnippet");
+?>
 
+<?php
+
+// Return a password reset link
 function resetHash($con, $email, $reset) {
-    /** Return a password reset link */
-    if ($reset) {
+    if ( $reset ) {
         $hs = NULL;
     } else {
         $hs = md5(random_int(1000, 9999));
@@ -24,8 +28,8 @@ function resetHash($con, $email, $reset) {
     return $hs;
 }
 
+// Set new password for user
 function ChangePasswd($con, $passwd, $email, $hs) {
-    /** Set new password for user */
     if ( strlen($passwd) < 8 ) {
         return false;
     } 
@@ -37,9 +41,9 @@ function ChangePasswd($con, $passwd, $email, $hs) {
     return $q->affected_rows;
 }
 
-//Standard user input:
-$hash = $_GET['hash'];
-$email = $_GET['email'];
+//Get user input:
+$hash = isset($_GET['hash']) ? $_GET['hash'] : "";
+$email = isset($_GET['email']) ? $_GET['email'] : "";
 
 if ( filter_var($email, FILTER_VALIDATE_EMAIL) && isset($_GET['new'])) {
     resetHash($mysqlDB, $email, false);
@@ -55,4 +59,25 @@ if ( isset($_POST['passwd']) && ChangePasswd($mysqlDB,$_POST['passwd'],$email,$h
 }
 
 $mysqlDB->close();
+
 ?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title><?= $title ?></title>
+</head>
+<body>
+<h1><?= $title ?></h1>
+<div>
+    <form method="GET">
+        <labal>Reset your password</label>
+        <input type="email" name="email" placeholder="Ex: example@gmail.com">
+        <input type="submit">
+    </form>
+</div>
+<div>
+<?= $design ?>
+</div>
+<body>
+</html>
