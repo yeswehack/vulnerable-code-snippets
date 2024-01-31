@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+    php-apache:
+        container_name: vsnippet-open-redirect-url-fragment-19
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - 1337:80

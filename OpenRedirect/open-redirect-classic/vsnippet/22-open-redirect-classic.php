@@ -1,20 +1,21 @@
 <?php
 //The PHP code can be ignored. It's just for design purpose.
-include_once('../../design/design.php');
-Design(__FILE__, '22-OpenRedirect');
+include_once('./ignore/design/design.php');
+$title = 'Vsnippet #22 - Open Redirect Classic';
+$design = Design(__FILE__, $title);
 
 /**
 * YesWeHack - Vulnerable Code Snippet
-*
-* Start: php -S 127.1:5000
 */
 ?>
 
 <!DOCTYPE html>
 <html>
-<head>
-</head>
+    <head>
+      <title><?= $title ?></title>
+    </head>
 <body>
+<h1><?= $title ?></h1>
 <b>If you do not redirect click <a style="color:red;" href="/home.html">here</a></b>
 <script>
     function filter(s) {
@@ -28,5 +29,8 @@ Design(__FILE__, '22-OpenRedirect');
         location = filter(path);
     }
 </script>
+<div>
+<?= $design ?>
+</div>
 </body>
 </html>

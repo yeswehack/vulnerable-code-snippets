@@ -1,20 +1,21 @@
 <?php
-include_once('../../design/design.php');
-Design(__FILE__, "19-OpenRedirect");
+//The PHP code can be ignored. It's just for design purpose.
+include_once('./ignore/design/design.php');
+$title = 'Vsnippet #19 - Open Redirect Classic';
+$design = Design(__FILE__, $title);
 
 /**
 * YesWeHack - Vulnerable Code Snippet
-*
-* Run: php -S 127.1:5000 19-OpenRedirect.php
 */
-
 ?>
 
 <!DOCTYPE html>
 <html>
-<head>
-</head>
+    <head>
+      <title><?= $title ?></title>
+    </head>
 <body>
+<h1><?= $title ?></h1>
 <ul>
     <!-- Customer mode -->
     <li><a href="#light">☀️ Light</a></li>
@@ -38,5 +39,8 @@ setInterval( () => {
     }
 }, 300);
 </script>
+<div>
+<?= $design ?>
+</div>
 </body>
 </html>
