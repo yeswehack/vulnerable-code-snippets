@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+    python-flask:
+        container_name: vsnippet-deserialization-classic-17
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - 1337:1337

@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-from flask import Flask, Response, request
+from flask import Flask, render_template, Response, request
 from datetime import date
 import base64 as b64
 import pickle
@@ -42,7 +42,7 @@ def index():
             return User_RedirectTo(data)
         
         except:
-            return "<h2>Invalid data...</h2>"
+            return render_template('index.html', result="<h2>Invalid data...</h2>")
 
     else:
         #Create a new data object and set it as the user's cookie:
@@ -52,6 +52,5 @@ def index():
         
         return resp
 
-
-if __name__=='__main__':
-    app.run(debug=True)
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=1337, debug=True)

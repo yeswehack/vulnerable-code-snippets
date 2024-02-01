@@ -1,12 +1,12 @@
 <?php
-//Only design (ignore)
-include_once('../../design/design.php');
-Design(__FILE__, "30 - Insecure deserialization");
+//Ignore the php code below (design only)
+include_once('./ignore/design/design.php');
+$title = 'Vsnippet #30 - Insecure deserialization';
+$design = Design(__FILE__, $title);
 
 //
 // YesWeHack - Vulnerable Code Snippet
 //
-//Run: php -S 127.1:5000 30-deserialization.php
 
 class Client {
     private $ip;
@@ -35,3 +35,16 @@ if ( !isset($_COOKIE['client']) || strlen($_COOKIE['client']) == 0 ) {
 }
 
 ?>
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title><?= $title ?></title>
+    </head>
+<body>
+<h1><?= $title ?></h1>
+<div>
+<?= $design ?>
+</div>
+</body>
+</html>
