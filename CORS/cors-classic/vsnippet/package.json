@@ -1,0 +1,5 @@
+{   
+    "scripts": {
+        "start": "node 11-cors-classic.js"
+    }
+}
