@@ -1,21 +1,24 @@
 <?php
-
 /*
-* YesWeHack - Vulnerable code snippets
+* YesWeHack - Vulnerable Code Snippet
 */
 
-//include("/user/sessions")
-session_start();
+//Ignore the php code below (design only)
+include_once('./ignore/design/design.php');
+$title = 'Vsnippet #8 - Cross Site Request Forgery (CSRF) change email';
+$design = Design(__FILE__, $title);
+?>
+
+<?php
+
 $_SESSION["session"] = "123456";//<== Quick way to just demonstrait that a "session is in place".
 
 //Compare cookie session with logged in user stored session:
 function UserCheck($session) {return true;}
 function EditUser($edit, $value) {echo "Email changed"; return true;}
 
-if ( $_COOKIE["session"] ) {
-    
+if ( isset($_COOKIE["session"]) ) {
     if ( ($_SESSION["session"] == $_COOKIE["session"]) && UserCheck($_COOKIE["session"]) ) {
-
         if ( preg_match('/^[A-Za-z0-9_@\-\.]+$/', $_POST["email"]) && strlen($_POST["email"]) <= 64 ) {
             $email = $_POST["email"];
             
@@ -33,9 +36,18 @@ if ( $_COOKIE["session"] ) {
         die();
     }
 } 
-else {
-    //header("Location: /login");
-    die();
-}
 
 ?>
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title><?= $title ?></title>
+    </head>
+<body>
+<h1><?= $title ?></h1>
+<div>
+<?= $design ?>
+</div>
+</body>
+</html>
