@@ -10,6 +10,7 @@ COPY vsnippet .
 
 #Copy configs
 COPY config/supervisord.conf /etc/supervisord.conf
+COPY config/apache.conf /etc/apache2/sites-enabled/apache.conf
 
 EXPOSE 1337
 

@@ -1,7 +1,7 @@
 version: '3.8'
 services:
-    vsnippet-codeinjection-38:
-        container_name: vsnippet-codeinjection-38
+    php-apache:
+        container_name: vsnippet-codeinjection-file-write-38
         build:
             context: .
             dockerfile: Dockerfile
