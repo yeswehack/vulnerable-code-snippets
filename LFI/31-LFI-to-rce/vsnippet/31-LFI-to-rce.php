@@ -1,6 +1,7 @@
 <?php
 include_once('./ignore/design/design.php');
-Design(__FILE__, 'Vsnippet #31 - Local File Inclusion (LFI)');
+$title = 'Vsnippet #31 - Local File Inclusion (LFI)';
+$design = Design(__FILE__, $title);
 
 /**
  * YesWeHack - Vulnerable Code Snippet
@@ -35,3 +36,14 @@ $msgFile = new Msg($file);
 $msgFile->load();
 
 ?>
+
+<html>
+<head>
+<title><?= $title ?></title>
+</head>
+<body>
+<div>
+<?= $design ?>
+</div>
+<body>
+</html>
