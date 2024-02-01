@@ -1,14 +1,13 @@
-from flask import Flask, request
+#!/usr/bin/python3
+from flask import Flask, render_template, request
 from flask_caching import Cache
+from ignore.design import design
 import datetime
-app = Flask(__name__)
+app = design.Design(Flask(__name__), __file__, 'Vsnippet #27 - Cache poisoning classic')
 
 ##
 #   YesWeHack - Vulnerable Code Snippet
 ##
-
-#Install: pip install -r requirements.txt
-#Run: python3 27-new.py
 
 #Setup cache configurations:
 config = {
@@ -21,7 +20,6 @@ cache = Cache(app)
 @app.route("/")
 @cache.cached(timeout=10)
 def index():
-
     HTMLContent = '''
     <div id="cache_info">
       <p> The page was cached at: [%s] </p>
@@ -29,7 +27,7 @@ def index():
     </div>
     ''' %  (str(datetime.datetime.now()), str(request.headers.get("Referer")))
     
-    return HTMLContent
+    return render_template('index.html', result=HTMLContent)
 
-if __name__=='__main__':
-    app.run(debug=True)
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=1337, debug=True)
