@@ -1,0 +1,5 @@
+{   
+    "scripts": {
+        "start": "node 20-sqli-login.js"
+    }
+}
