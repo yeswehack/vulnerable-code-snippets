@@ -1,8 +1,5 @@
-# New Vulnerable Code snippet 💀
+# New Vulnerable Code Snippet 💀
 
-**Code analysis( 🔎 ) → Understand( 🧠 ) → Detect the bug( 🐝 ) → pwn it( 🧑‍💻 )**
+**Code analysis( 🔎 ) → Understand( 🧠 ) → Find the bug( 🐝 ) → Pwn it( 🧑‍💻 )**
 
-> The latest V-Snippet code can be found in the `vcode` folder!
-
-
-For **all** the Vulnerable code snippets, check it out [here](https://github.com/yeswehack/vulnerable-code-snippets/) 📂
+> Check out the most recent Vsnippet [here](/CommandInjection/command-injection-escapeshellcmd/) or take a tour and explore all the Vulnerable code snippets [here](https://github.com/yeswehack/vulnerable-code-snippets/) 📂
