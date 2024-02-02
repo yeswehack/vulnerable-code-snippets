@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+    gcc:
+        container_name: vsnippet-bof-classic-23
+        build:
+            context: .
+            dockerfile: Dockerfile

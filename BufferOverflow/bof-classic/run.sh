@@ -1,0 +1,1 @@
+docker compose run --service-ports gcc

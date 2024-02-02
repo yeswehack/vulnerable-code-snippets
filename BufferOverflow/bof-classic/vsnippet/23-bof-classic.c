@@ -1,22 +1,15 @@
 #include <stdio.h>
 #include <string.h>
 
+/**
+ * YesWeHack - Vulnerable Code Snippet
+*/
+
 char* GetOTP(){
     //Code... 
     //Example OPT code return:
     return "1337";
 }
-
-/**
- * YesWeHack - Vulnerable Code Snippet
-*/
-
-// Run: gcc 23-bufferOverflow.c -fno-stack-protector -o 23-bof
-// Then run the program: ./23-bof
-
-// If that do not work, run: `chmod +x 23-bufferOverflow.c`. Then run it again
-
-int LoadDashboard(){}
 
 int main(void)
 {
@@ -31,7 +24,8 @@ int main(void)
         //Check if the user has root privileges or OPT:
         if ( root || strcmp(tryOTP, OTP) == 0 ) {
             printf("> Success, loading dashboard\n");
-            LoadDashboard();
+            //Loading dashboard for root...
+            //Code...
             return 1;
         } else {
             printf ("> Incorrect OTP\n");
