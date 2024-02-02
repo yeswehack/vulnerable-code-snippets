@@ -12,17 +12,31 @@ https://dojo-yeswehack.com/Playground#eyJkZXNjcmlwdGlvbiI6IldvcmtzIGluIG1vc3Qgb3
 </div>
 
 
-[YesWeHack](https://www.yeswehack.com/) present code snippets containing several different vulnerabilities to practice your code analysis. The code snippets are beginner friendly but suitable for all levels!
+<div align="center">
+  &lt;
+  <a href="#twitter-(X)-posts">Twitter (X) posts</a> |
+  <a href="#vulnerabilities">Vulnerabilities</a> |
+  <a href="#programming-languages">Programming languages</a> |
+  <a href="#run-a-vulnerable-code-snippet">Run a vulnerable code snippet</a> |
+  <a href="#installation">Installation</a> |
+  <a href="#update">Update</a> |
+  <a href="https://twitter.com/yeswehack">Join Twitter for updates</a>
+  /&gt;
+</div>
+
+
+[YesWeHack](https://www.yeswehack.com/) present code snippets containing several different vulnerabilities to practice your code analysis in a safe dockerized envoriment. The vulnerable code snippets are suitable for all skill levels.
 
 ~ New **vulnerable code snippet** at Twitter [@yeswehack](https://twitter.com/yeswehack) **every Friday**! 🗒
-> If you want to see something special or if you just have an idea about a vulnerable code snippet, feel free to create a "[New Issue](https://github.com/yeswehack/vulnerable-code-snippets/issues)" where you explain your idea, **no** idea is stupid.
+> If you want to see something special or if you just have an idea about a vulnerable code snippet, feel free to create a "[New Issue](https://github.com/yeswehack/vulnerable-code-snippets/issues)" where you explain your idea, **no idea is stupid**.
 
 ---
 
 ⚠️ **Be aware**
 > Be sure to run this in a secure environment, as the code is vulnerable and is intended to be used for learning code analysis!
+By default, all vulnerable code snippets contain a docker setup that isolates the code from your host system and make it safe to run (*read more in the section : "Run a vulnerable code snippet"*).
 
-## Twitter posts 🔖
+## Twitter (X) posts 🔖
 A Collection of all vulnerable code snippets posted on our Twitter 📂  
   
 📜[#1](https://twitter.com/yeswehack/status/1570757831468679169) - **SQLi & XSS** | Backslash filter collide  
@@ -92,7 +106,7 @@ A Collection of all vulnerable code snippets posted on our Twitter 📂
 
 
 
-## Programming Language 💻
+## Programming languages 💻
 - [PHP](https://www.php.net/)
 - [Python](https://www.python.org/)
 - [Golang](https://go.dev/)
@@ -107,28 +121,24 @@ __Also included__
 
 ---
 
+## Run a vulnerable code snippet
+In each vulnerable code snippet (Vsnippet) folder there is a `docker-compose.yml` file. To start a Vsnippet in an isolated docker environment simply run the following command:
+```
+docker compose up --build
+```
+or
+```
+docker-compose up --build
+```
+
 ## Installation 🏁
-This will create a new MySQL user and a database for the vulnerable code snippet to use.
-(*You should **not** move code snippets or any other file within repo*)
 
 ```bash
 git clone https://github.com/yeswehack/vulnerable-code-snippets.git
 ```
 
-> ⚠️ Replace `'<USERNAME>'` `'<PASSWORD>'` `'<DATABASE>'` and remove the `#`. This will be your *new* MySQL vulnerable snippet **user**, **password** and **Database**  (*MySQL must be installed*).
-
-*Make sure your in the correct folder when running this commands.*
-```bash
-sudo apt update;
-sudo systemctl start mysql;
-cd db/;
-chmod +x setupVsnippet.sh;
-./setupVsnippet.sh # '<USERNAME>' '<PASSWORD>' '<DATABASE>';
-sudo systemctl restart mysql;
-```
-
-### Update
-Inside the vulnerable snippet *folder* use: (*Get the newest code snippets*)
+## Update
+To get the latest vulnerable code snippets, run:
 ```bash
 git pull
 ```
