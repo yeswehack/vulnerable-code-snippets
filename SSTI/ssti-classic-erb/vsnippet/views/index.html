@@ -1,0 +1,27 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title><%= $TITLE %></title>
+    <link rel="stylesheet" href="/assets/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script> 
+</head>
+<body>
+<div class="wrapper">
+    <div class="main">
+        <h1><%= $TITLE %></h1>
+        <form method="GET">
+            <input type="email" name="email" placeholder="Ex: John@example.com">
+            <input type="submit" value="Send">
+        </form>
+        <p><%= @message %></p>
+    </div>
+
+    <!-- vsnippet source code -->
+    <pre class="source_code">
+        <code class="language-ruby"><%= $SOURCE_CODE %></code>
+    </pre>
+</div>
+<script>hljs.highlightAll();</script>
+</body>
+</html>
