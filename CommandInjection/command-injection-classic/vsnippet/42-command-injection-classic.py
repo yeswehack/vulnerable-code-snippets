@@ -16,7 +16,7 @@ def index():
     elif request.method == "POST":
         method = request.form.get("method")
         if method is None or method == "":
-            return render_template('index.html', result="The post parameter 'check' is missing in the request")
+            return render_template('index.html', result="The post parameter 'method' is missing in the request")
         
         return render_template('index.html', result=os.popen(f"curl 'http://localhost:1337/{method}'").read())
     
