@@ -104,6 +104,7 @@ A Collection of all vulnerable code snippets posted on our Twitter 📂
 - [Acceptance of Extraneous Untrusted Data With Trusted Data ("Cache Poisoning")](https://cwe.mitre.org/data/definitions/349.html) - CWE-349
 - [Business Logic Errors](https://cwe.mitre.org/data/definitions/840.html) - CWE-840
 - [Format injection](https://cwe.mitre.org/data/definitions/134.html) - CWE-134
+- [Command injection](https://cwe.mitre.org/data/definitions/77) - CWE-77
 
 
 
