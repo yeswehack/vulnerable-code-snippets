@@ -77,7 +77,9 @@ A Collection of all vulnerable code snippets posted on our Twitter 📂
 📜[#38](https://twitter.com/yeswehack/status/1709124683377885530) | **Code injection** | The user can write customised content to a selected file which is then launched on the vulnerable system  
 📜[#39](https://twitter.com/yeswehack/status/1717202895701954626) | **LFI** | Exploitation of an LFI make it possible to run the tool *pearcmd* resulting in a remote code execution  
 📜[#40](https://twitter.com/yeswehack/status/1745074482522243552) | **Unrestricted File Upload** | The `php3` extension can be used to execute php code due to the configuration in the Apache proxy.  
-📜[#41](https://twitter.com/yeswehack) | *New!*  | ...  
+📜[#41](https://twitter.com/yeswehack) | **Command injection**  | Invalid usage of escapeshellcmd lead to a command injection vulnerability  
+📜[#42](https://twitter.com/yeswehack) | *New!*  | ...  
+
 
 
 ## Vulnerabilities
