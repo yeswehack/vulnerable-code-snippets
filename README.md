@@ -78,8 +78,8 @@ A Collection of all vulnerable code snippets posted on our Twitter 📂
 📜[#39](https://twitter.com/yeswehack/status/1717202895701954626) | **LFI** | Exploitation of an LFI make it possible to run the tool *pearcmd* resulting in a remote code execution  
 📜[#40](https://twitter.com/yeswehack/status/1745074482522243552) | **Unrestricted File Upload** | The `php3` extension can be used to execute php code due to the configuration in the Apache proxy.  
 📜[#41](https://twitter.com/yeswehack) | **Command injection**  | Invalid usage of escapeshellcmd lead to a command injection vulnerability  
-📜[#42](https://twitter.com/yeswehack) | *New!*  | ...  
-
+📜[#42](https://x.com/yeswehack/status/1801619463097274624) | **Command injection**  | No validation of user input is performed, leading to a command injection vulnerability  
+📜[#43](https://x.com/yeswehack/status/1775179767412593021) | **SSTI**  | Improper usage of templte engine leading to a SSTI which result in an RCE  
 
 
 ## Vulnerabilities
