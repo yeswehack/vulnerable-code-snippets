@@ -10,7 +10,7 @@
     <header>
         <nav class="navbar">
             <div class="logo">
-                <img src="/vsnippet/ignore/desing/shiba.png" alt="shiba">
+                <img src="/ignore/desing/shiba.png" alt="shiba">
             </div>
             <ul>
                 <li><a href="#">Home</a></li>
