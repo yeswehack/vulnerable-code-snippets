@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Preprod</title>
-    <link rel="stylesheet" href="/vsnippet/ignore/desing/design.css">
+    <link rel="stylesheet" href="/ignore/desing/design.css">
 </head>
 <body>
     <header>
