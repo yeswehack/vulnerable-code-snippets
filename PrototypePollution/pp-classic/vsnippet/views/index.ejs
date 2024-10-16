@@ -1,0 +1,60 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+</head>
+<body>
+    <h1>Vsnippet JavaScript prototype pollucion</h1>
+
+    <h2><%= status %></h2>
+    
+<!--[The code below is only for design and can be ignored]-->
+<pre id="sourcecode"><code class="language-javascript"><%= SOURCECODE %></code></pre>
+<style>
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+body {
+    padding: 2%;
+    font-family: "VT323", monospace;
+    background-color: #000;
+    color: white;
+}
+
+button, input{
+    border-radius: 12px;
+    border: 2px solid #09d8c4;
+    padding: 4px;
+}
+
+#sourcecode {
+    position: absolute;
+    transform: translate(0,-50%);
+    box-shadow: 5px, 5px, 20px, rgb(0, 0, 0, 0.5);
+    right: 0;
+    top: 50%;
+    width: 30%;
+    height: 70%;
+    font-size: 12px;
+    padding: 2%;
+    border-radius: 5px;
+    overflow-y: auto; 
+    overflow-x: auto; 
+    white-space: pre-wrap;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+#sourcecode::-webkit-scrollbar {
+  display: none;
+}
+
+#profilePicture {
+    border-radius: 50%;
+    border: 2px solid #09d8c4;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+</style>
+</body>
+</html>

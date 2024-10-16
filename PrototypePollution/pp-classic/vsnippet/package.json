@@ -1,0 +1,5 @@
+{   
+    "scripts": {
+        "start": "node pp-classic.js"
+    }
+}
