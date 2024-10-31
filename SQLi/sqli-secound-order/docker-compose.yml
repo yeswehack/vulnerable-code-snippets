@@ -10,7 +10,7 @@ services:
         volumes:
             - ./vsnippet:/var/www/html/
         ports:
-            - 1337:80
+            - "127.0.0.1:1337:80"
     db-mysql:
         container_name: vsnippet-db-mysql-sqli-secound-order-33
         volumes:
@@ -23,4 +23,4 @@ services:
             MYSQL_PASSWORD: vsnippet
             MYSQL_ROOT_PASSWORD: supervulnerableroot
         ports:
-            - "1338:3306"
+            - "127.0.0.1:1338:3306"
